@@ -16,10 +16,10 @@
           "repo_info": {
             "archived": false,
             "language": "Python",
-            "last_commit": "2026-08-14T16:17:52Z",
+            "last_commit": "2026-08-15T18:12:13Z",
             "owner": "Dao-AILab",
             "repo": "flash-attention",
-            "stars": 24711
+            "stars": 24718
           }
         },
         {
@@ -47,7 +47,7 @@
             "last_commit": "2024-04-11T13:58:57Z",
             "owner": "microsoft",
             "repo": "torchscale",
-            "stars": 3137
+            "stars": 3138
           }
         },
         {
@@ -95,7 +95,7 @@
             "last_commit": "2022-02-25T06:27:12Z",
             "owner": "EleutherAI",
             "repo": "gpt-neo",
-            "stars": 8270
+            "stars": 8269
           }
         },
         {
@@ -134,7 +134,7 @@
             "last_commit": "2025-01-26T21:39:06Z",
             "owner": "meta-llama",
             "repo": "llama3",
-            "stars": 29258
+            "stars": 29257
           }
         },
         {
@@ -148,7 +148,7 @@
             "last_commit": "2023-07-25T09:01:49Z",
             "owner": "zai-org",
             "repo": "GLM-130B",
-            "stars": 7654
+            "stars": 7653
           }
         },
         {
@@ -204,7 +204,7 @@
             "last_commit": "2024-06-12T13:50:10Z",
             "owner": "amazon-science",
             "repo": "mm-cot",
-            "stars": 3987
+            "stars": 3986
           }
         },
         {
@@ -329,10 +329,10 @@
           "repo_info": {
             "archived": false,
             "language": "Python",
-            "last_commit": "2026-08-14T22:31:03Z",
+            "last_commit": "2026-08-15T22:28:12Z",
             "owner": "huggingface",
             "repo": "transformers",
-            "stars": 164095
+            "stars": 164132
           }
         },
         {
@@ -346,7 +346,7 @@
             "last_commit": "2024-03-27T11:25:30Z",
             "owner": "NVIDIA",
             "repo": "FasterTransformer",
-            "stars": 6446
+            "stars": 6445
           }
         },
         {
@@ -391,10 +391,10 @@
           "repo_info": {
             "archived": false,
             "language": "Python",
-            "last_commit": "2026-08-15T04:04:12Z",
+            "last_commit": "2026-08-16T03:22:17Z",
             "owner": "NVIDIA-NeMo",
             "repo": "Speech",
-            "stars": 18132
+            "stars": 18137
           }
         },
         {
@@ -405,10 +405,10 @@
           "repo_info": {
             "archived": false,
             "language": "Python",
-            "last_commit": "2026-08-15T06:33:24Z",
+            "last_commit": "2026-08-16T04:27:41Z",
             "owner": "NVIDIA",
             "repo": "Megatron-LM",
-            "stars": 17434
+            "stars": 17447
           }
         },
         {
@@ -492,7 +492,7 @@
             "last_commit": "2023-12-20T21:18:02Z",
             "owner": "deepset-ai",
             "repo": "FARM",
-            "stars": 1753
+            "stars": 1752
           }
         },
         {
@@ -574,7 +574,7 @@
             "last_commit": "2024-11-11T15:41:47Z",
             "owner": "bojone",
             "repo": "bert4keras",
-            "stars": 5414
+            "stars": 5415
           }
         },
         {
@@ -659,10 +659,10 @@
           "repo_info": {
             "archived": false,
             "language": "C++",
-            "last_commit": "2026-08-15T08:35:53Z",
+            "last_commit": "2026-08-16T07:24:37Z",
             "owner": "ggml-org",
             "repo": "llama.cpp",
-            "stars": 123943
+            "stars": 124083
           }
         },
         {
@@ -676,7 +676,7 @@
             "last_commit": "2026-08-14T06:38:18Z",
             "owner": "huggingface",
             "repo": "transformers.js",
-            "stars": 16256
+            "stars": 16258
           }
         },
         {
@@ -704,7 +704,7 @@
             "last_commit": "2023-04-25T09:24:38Z",
             "owner": "apple",
             "repo": "ml-ane-transformers",
-            "stars": 2733
+            "stars": 2732
           }
         },
         {
@@ -1383,7 +1383,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-15T08:46:43.134Z",
+    "last_updated": "2026-08-16T08:48:50.557Z",
     "original_repository": "cedrickchee/awesome-transformer-nlp",
     "original_repository_sha": "594ec55d612bb1bddff6d3d44707864cb6594b08",
     "enhanced_repository": "enhansome/enhansome-transformer-nlp",
