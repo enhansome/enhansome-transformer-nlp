@@ -110,10 +110,10 @@
                 "archived": false,
                 "id": 155220641,
                 "language": "Python",
-                "last_commit": "2026-08-19T08:54:43Z",
+                "last_commit": "2026-08-19T12:53:16Z",
                 "owner": "huggingface",
                 "repo": "transformers",
-                "stars": 164246
+                "stars": 164253
               }
             },
             {
@@ -165,7 +165,7 @@
                 "last_commit": "2026-08-19T08:12:39Z",
                 "owner": "Dao-AILab",
                 "repo": "flash-attention",
-                "stars": 24737
+                "stars": 24739
               }
             },
             {
@@ -314,7 +314,7 @@
                 "last_commit": "2026-06-11T19:25:44Z",
                 "owner": "EleutherAI",
                 "repo": "gpt-neox",
-                "stars": 7455
+                "stars": 7456
               }
             },
             {
@@ -533,10 +533,10 @@
                 "archived": false,
                 "id": 155220641,
                 "language": "Python",
-                "last_commit": "2026-08-19T08:54:43Z",
+                "last_commit": "2026-08-19T12:53:16Z",
                 "owner": "huggingface",
                 "repo": "transformers",
-                "stars": 164246
+                "stars": 164253
               }
             },
             {
@@ -600,10 +600,10 @@
                 "archived": false,
                 "id": 200722670,
                 "language": "Python",
-                "last_commit": "2026-08-19T02:13:28Z",
+                "last_commit": "2026-08-19T12:12:33Z",
                 "owner": "NVIDIA-NeMo",
                 "repo": "Speech",
-                "stars": 18174
+                "stars": 18176
               }
             },
             {
@@ -615,10 +615,10 @@
                 "archived": false,
                 "id": 176982014,
                 "language": "Python",
-                "last_commit": "2026-08-19T08:52:10Z",
+                "last_commit": "2026-08-19T12:54:03Z",
                 "owner": "NVIDIA",
                 "repo": "Megatron-LM",
-                "stars": 17477
+                "stars": 17480
               }
             },
             {
@@ -876,10 +876,10 @@
                 "archived": false,
                 "id": 612354784,
                 "language": "C++",
-                "last_commit": "2026-08-19T08:46:01Z",
+                "last_commit": "2026-08-19T12:29:02Z",
                 "owner": "ggml-org",
                 "repo": "llama.cpp",
-                "stars": 124631
+                "stars": 124658
               }
             },
             {
@@ -1598,8 +1598,9 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-19T08:55:50.968Z",
+    "last_updated": "2026-08-19T12:56:48.925Z",
     "original_repository": "cedrickchee/awesome-transformer-nlp",
+    "original_repository_id": 165509352,
     "original_repository_sha": "594ec55d612bb1bddff6d3d44707864cb6594b08",
     "enhanced_repository": "enhansome/enhansome-transformer-nlp",
     "enhanced_repository_description": null,
