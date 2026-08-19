@@ -1,750 +1,972 @@
 {
   "items": [
     {
-      "description": "",
-      "items": [],
-      "title": "Articles"
-    },
-    {
-      "description": "",
+      "description": null,
       "items": [
         {
           "node_type": "item",
-          "title": "FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness (paper)",
-          "description": "by Stanford University et al., 2022 - Transformers have grown deeper and wider, but training them on long sequences remains difficult. The attention layer at their heart is the compute and memory bottleneck: doubling the sequence length would quadruple the runtime and memory requirements. FlashAttention is a new algorithm to speed up attention and reduce its memory footprint—without any approximation. It enables training LLMs with longer context. [code]",
+          "title": "PLMpapers",
+          "description": "BERT (Transformer, transfer learning) has catalyzed research in pretrained language models (PLMs) and has sparked many extensions. This repo contains a list of papers on PLMs.",
           "children": [],
           "repo_info": {
             "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-15T18:12:13Z",
-            "owner": "Dao-AILab",
-            "repo": "flash-attention",
-            "stars": 24732
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "DETR (DEtection TRansformer): End-to-End Object Detection with Transformers",
-          "description": "by FAIR - :fire: Computer vision has not yet been swept up by the Transformer revolution. DETR completely changes the architecture compared with previous object detection systems. (PyTorch Code and pretrained models). \"A solid swing at (non-autoregressive) end-to-end detection. Anchor boxes + Non-Max Suppression (NMS) is a mess. I was hoping detection would go end-to-end back in ~2013)\" — Andrej Karpathy",
-          "children": [],
-          "repo_info": {
-            "archived": true,
-            "language": "Python",
-            "last_commit": "2024-03-12T15:58:25Z",
-            "owner": "facebookresearch",
-            "repo": "detr",
-            "stars": 15356
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "A Length-Extrapolatable Transformer (paper)",
-          "description": "by Microsoft (2022) [TorchScale code] - This improves modeling capability of scaling Transformers.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2024-04-11T13:58:57Z",
-            "owner": "microsoft",
-            "repo": "torchscale",
-            "stars": 3138
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "google-research/meliad",
-          "description": "The Meliad library is collection of models which are being developed as part of ongoing Google research into various architectural improvements in deep learning. The library currently consists of several transformer variations, which explore ways in which the popular transformer architecture can be extended to better support language modeling over long sequences. The variations are Memorizing Transformer, Transformer with sliding window, Block-Recurrent Transformer, and more.",
-          "children": [],
-          "repo_info": {
-            "archived": true,
-            "language": "Python",
-            "last_commit": "2025-06-06T03:03:17Z",
-            "owner": "google-research",
-            "repo": "meliad",
-            "stars": 260
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "PoSE: Efficient Context Window Extension of LLMs via Positional Skip-wise Training",
-          "description": "by Dawei Zhu et al., ICLR 2024 - PoSE simulates longer input sequences during training by manipulating the position indices within a fixed context window, rather than training on the full target length. This allows decoupling of the training length from the target context length, greatly reducing memory and computational requirements compared to full-length fine-tuning. PoSE successfully extended LLaMA-1 to support context lengths up to 128k tokens using only a 2k training window, with minimal performance degradation. This model uses PoSE to extend Llama-3 8B context length from 8k to 64k. PoSE has potential to scale context lengths even further, limited only by inference memory, as efficient inference techniques continue improving. [Code: PoSE]",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2024-05-20T23:54:50Z",
-            "owner": "dwzhu-pku",
-            "repo": "PoSE",
-            "stars": 208
-          }
-        }
-      ],
-      "title": "Transformer Architecture"
-    },
-    {
-      "description": "GPT visualization",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "GPT-Neo",
-          "description": "Replicate a GPT-3 sized model and open source it for free. GPT-Neo is \"an implementation of model parallel GPT2 & GPT3-like models, with the ability to scale up to full GPT3 sizes (and possibly more!), using the mesh-tensorflow library.\" [Code].",
-          "children": [],
-          "repo_info": {
-            "archived": true,
-            "language": "Python",
-            "last_commit": "2022-02-25T06:27:12Z",
-            "owner": "EleutherAI",
-            "repo": "gpt-neo",
-            "stars": 8270
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "elyase/awesome-gpt3",
-          "description": "A collection of demos and articles about the OpenAI GPT-3 API.",
-          "children": [],
-          "repo_info": {
-            "archived": true,
+            "id": 210390968,
             "language": null,
-            "last_commit": "2023-08-27T11:46:48Z",
-            "owner": "elyase",
-            "repo": "awesome-gpt3",
-            "stars": 4520
+            "last_commit": "2022-11-06T09:37:38Z",
+            "owner": "thunlp",
+            "repo": "PLMpapers",
+            "stars": 3360
           }
-        }
-      ],
-      "title": "Generative Pre-Training Transformer (GPT)"
-    },
-    {
-      "description": "What is ChatGPT?\nTL;DR: ChatGPT is a conversational web interface, backed by OpenAI's newest language model fine-tuned from a model in the GPT-3.5 series (which finished training in early 2022), optimized for dialogue. It is trained using Reinforcement Learning from Human Feedback (RLHF); human AI trainers provide supervised fine-tuning by playing both sides of the conversation.\nIt's evidently better than GPT-3 at following user instructions and context. People have noticed ChatGPT's output quality seems to represent a notable improvement over previous GPT-3 models.\nFor more, please take a look at ChatGPT Universe. This is my fleeting notes on everything I understand about ChatGPT and stores a collection of interesting things about ChatGPT.",
-      "items": [],
-      "title": "ChatGPT"
-    },
-    {
-      "description": "ChatGPT among the LLMs",
-      "items": [
+        },
         {
           "node_type": "item",
-          "title": "Introducing Llama 3: The most capable openly available LLM to date (article)",
-          "description": "by Meta AI, 2024 - In the coming months, they’ll share the Llama 3 research paper. [Code]",
+          "title": "CTRL: Conditional Transformer Language Model for Controllable Generation",
+          "description": "by Nitish Shirish Keskar, Richard Socher et al. [Code].",
           "children": [],
           "repo_info": {
             "archived": true,
+            "id": 205267360,
             "language": "Python",
-            "last_commit": "2025-01-26T21:39:06Z",
-            "owner": "meta-llama",
-            "repo": "llama3",
-            "stars": 29253
+            "last_commit": "2025-05-01T17:28:54Z",
+            "owner": "salesforce",
+            "repo": "ctrl",
+            "stars": 1879
           }
         },
         {
           "node_type": "item",
-          "title": "GLM-130B: An Open Bilingual (Chinese and English) Pre-Trained Model (code and paper)",
-          "description": "by Tsinghua University, China [article] - One of the major contributions is making LLMs cost affordable using int4 quantization so it can run in limited compute environments.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2023-07-25T09:01:49Z",
-            "owner": "zai-org",
-            "repo": "GLM-130B",
-            "stars": 7654
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "GPT-NeoX-20B",
-          "description": "A 20 billion parameter model trained using EleutherAI’s GPT-NeoX framework. They expect it to perform well on many tasks. You can try out the model on GooseAI playground.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-06-11T19:25:44Z",
-            "owner": "EleutherAI",
-            "repo": "gpt-neox",
-            "stars": 7453
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Metaseq",
-          "description": "A codebase for working with Open Pre-trained Transformers (OPT).",
-          "children": [],
-          "repo_info": {
-            "archived": true,
-            "language": "Python",
-            "last_commit": "2024-04-27T22:15:40Z",
-            "owner": "facebookresearch",
-            "repo": "metaseq",
-            "stars": 6547
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "OPT-IML (OPT + Instruction Meta-Learning) (paper)",
-          "description": "by Meta AI - OPT-IML is a set of instruction-tuned versions of OPT, on a collection of ~2000 NLP tasks — for research use cases. It boosts the performance of the original OPT-175B model using instruction tuning to improve zero-shot and few-shot generalization abilities — allowing it to adapt for more diverse language applications (i.e., answering Q’s, summarizing text). This improves the model's ability to better process natural instruction style prompts. Ultimately, humans should be able to \"talk\" to models as naturally and fluidly as possible. [code (available soon), weights released]",
-          "children": [],
-          "repo_info": {
-            "archived": true,
-            "language": "Python",
-            "last_commit": "2024-04-27T22:15:40Z",
-            "owner": "facebookresearch",
-            "repo": "metaseq",
-            "stars": 6547
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Multimodal Chain-of-Thought Reasoning in Language Models (paper)",
-          "description": "by Amazon Web Service et al., 2023 - The model outperform GPT-3.5 by 16% on the ScienceQA benchmark. This work is the first to study CoT reasoning in different modalities, language (text) and vision (images). Unfortunately, they never provide ablation study on how much of that performance gain was caused by the new modalities. [code]",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2024-06-12T13:50:10Z",
-            "owner": "amazon-science",
-            "repo": "mm-cot",
-            "stars": 3985
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "YaLM 100B",
-          "description": "by Yandex is a GPT-like pretrained language model with 100B parameters for generating and processing text. It can be used freely by developers and researchers from all over the world.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2023-07-10T00:54:27Z",
-            "owner": "yandex",
-            "repo": "YaLM-100B",
-            "stars": 3756
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "GPT-Code-Clippy (GPT-CC)",
-          "description": "An open source version of GitHub Copilot. The GPT-CC models are fine-tuned versions of GPT-2 and GPT-Neo.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2022-01-18T12:29:23Z",
-            "owner": "CodedotAl",
-            "repo": "gpt-code-clippy",
-            "stars": 3264
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "jeffhj/LM-reasoning",
-          "description": "This repository contains a collection of papers and resources on reasoning in Large Language Models.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": null,
-            "last_commit": "2023-11-13T08:44:02Z",
-            "owner": "jeffhj",
-            "repo": "LM-reasoning",
-            "stars": 571
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Unnatural Instructions: Tuning Language Models with (Almost) No Human Labor (paper)",
-          "description": "by Meta AI [data] - Fine-tuning a T5 on a large dataset collected with virtually no human labor leads to a model that surpassing the performance of models such as T0++ and Tk-Instruct across various benchmarks. These results demonstrate the potential of model-generated data as a cost-effective alternative to crowdsourcing for dataset expansion and diversification.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": null,
-            "last_commit": "2023-02-23T06:26:18Z",
-            "owner": "orhonovich",
-            "repo": "unnatural-instructions",
-            "stars": 181
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Progressive Prompts: Continual Learning for Language Models (paper)",
-          "description": "by Meta AI et al., 2023 - Current LLMs have hard time with catastrophic forgetting and leveraging past experiences. The approach learns a prompt for new task and concatenates with frozen previously learned prompts. This efficiently transfers knowledge to future tasks. [code]",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2023-04-24T04:46:29Z",
-            "owner": "arazd",
-            "repo": "ProgressivePrompts",
-            "stars": 97
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "RECITE: Recitation-Augmented Language Models (paper)",
-          "description": "by Google Research et al., ICLR 2023 - How can ChatGPT-like models achieve greater factual accuracy without relying on an external retrieval search engine? This paper shows that recitation can help LLMs generate accurate factual knowledge by reciting relevant passages from their own memory (by sampling) before producing final answers. The core idea is motivated by the intuition: recite-step that recollects relevant knowledge pieces helps answer-step (generation) better output. That's a recite-answer paradigm: first ask the LLM to generate the support paragraphs that contain the answer (knowledge-recitation) and then use it as additional prompt, along with the question to ask the LLM to generate the answer. They verify the effectiveness on four LLMs. They also show that recitation can be more effective than retrieval. This is important since having a retriever may lead to unpredictable behavior (i.e., Bing/Sydney). [code]",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2023-02-22T22:54:32Z",
-            "owner": "Edward-Sun",
-            "repo": "RECITE",
-            "stars": 96
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "LLaMA: Open and Efficient Foundation Language Models (paper)",
-          "description": "by Meta AI, 2023 - A collection of language models ranging from 7B to 65B parameters. LLaMA-13B outperforms GPT-3 (175B) on most benchmarks, and LLaMA-65B is competitive with the best models, Chinchilla70B and PaLM-540B. This shows that smaller models trained with more data can outperform larger models. This is not contradictory to anything in the Chinchilla paper, because it's not compute-optimally trained. GPU hours for training 7B model=82,432, 65B model=1,022,362 :scream:. Total time spent for all models: 2048 A100-80GB GPU for a period of approximately 5 months. The 65B model cost something in the range of ~$1-4M. Access to the model will be granted on a case-by-case basis though. People interested can apply for access. (Mar 2: they just approved access to the models, llama-7B works in Colab cedrickchee/llama) [Takeaways: Tweet]",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Jupyter Notebook",
-            "last_commit": "2024-07-07T14:20:43Z",
-            "owner": "cedrickchee",
-            "repo": "llama",
-            "stars": 31
-          }
-        }
-      ],
-      "title": "Large Language Model (LLM)"
-    },
-    {
-      "description": "",
-      "items": [],
-      "title": "Videos"
-    },
-    {
-      "description": "GPT and/or BERT implementations.",
-      "items": [],
-      "title": "Transformer Implementations By Communities"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "🤗 Hugging Face Transformers",
-          "description": "(formerly known as pytorch-transformers and pytorch-pretrained-bert) provides state-of-the-art general-purpose architectures (BERT, GPT-2, RoBERTa, XLM, DistilBert, XLNet, CTRL...) for Natural Language Understanding (NLU) and Natural Language Generation (NLG) with over 32+ pretrained models in 100+ languages and deep interoperability between TensorFlow 2.0 and PyTorch. [Paper]",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-18T08:18:47Z",
-            "owner": "huggingface",
-            "repo": "transformers",
-            "stars": 164211
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "FasterTransformer",
-          "description": "Transformer related optimization, including BERT and GPT. This repo provides a script and recipe to run the highly optimized transformer-based encoder and decoder component, and it is tested and maintained by NVIDIA.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "C++",
-            "last_commit": "2024-03-27T11:25:30Z",
-            "owner": "NVIDIA",
-            "repo": "FasterTransformer",
-            "stars": 6445
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "spacy-transformers",
-          "description": "a library that wrap Hugging Face's Transformers, in order to extract features to power NLP pipelines. It also calculates an alignment so the Transformer features can be related back to actual words instead of just wordpieces.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-03-27T08:49:39Z",
-            "owner": "explosion",
-            "repo": "spacy-transformers",
-            "stars": 1408
-          }
-        }
-      ],
-      "title": "PyTorch and TensorFlow"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "facebook/fairseq",
-          "description": "RoBERTa: A Robustly Optimized BERT Pretraining Approach by Facebook AI Research. SoTA results on GLUE, SQuAD and RACE.",
-          "children": [],
-          "repo_info": {
-            "archived": true,
-            "language": "Python",
-            "last_commit": "2025-09-30T11:16:06Z",
-            "owner": "facebookresearch",
-            "repo": "fairseq",
-            "stars": 32236
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "NVIDIA/NeMo",
-          "description": "Neural Modules is a toolkit for conversational AI by NVIDIA. They are trying to improve speech recognition with BERT post-processing.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-18T00:15:08Z",
-            "owner": "NVIDIA-NeMo",
-            "repo": "Speech",
-            "stars": 18167
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "NVIDIA/Megatron-LM",
-          "description": "Ongoing research training transformer language models at scale, including: BERT.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-18T08:50:53Z",
-            "owner": "NVIDIA",
-            "repo": "Megatron-LM",
-            "stars": 17460
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "codertimo/BERT-pytorch",
-          "description": "Google AI 2018 BERT pytorch implementation.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2023-09-15T12:57:08Z",
-            "owner": "codertimo",
-            "repo": "BERT-pytorch",
-            "stars": 6528
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "lucidrains/x-transformers",
-          "description": "A simple but complete full-attention transformer with a set of promising experimental features from various papers (good for learning purposes). There is a 2021 paper rounding up Transformer modifications, Do Transformer Modifications Transfer Across Implementations and Applications?.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-09T00:02:06Z",
-            "owner": "lucidrains",
-            "repo": "x-transformers",
-            "stars": 5936
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "kimiyoung/transformer-xl",
-          "description": "Code repository associated with the Transformer-XL paper.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2022-09-21T06:22:01Z",
-            "owner": "kimiyoung",
-            "repo": "transformer-xl",
-            "stars": 3714
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "dbiir/UER-py",
-          "description": "from Tencent and RUC - Open Source Pre-training Model Framework in PyTorch & Pre-trained Model Zoo (with more focus on Chinese).",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2024-05-09T11:12:55Z",
-            "owner": "dbiir",
-            "repo": "UER-py",
-            "stars": 3112
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "kaushaltrivedi/fast-bert",
-          "description": "Super easy library for BERT based NLP models. Built based on 🤗 Transformers and is inspired by fast.ai.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2024-08-19T09:41:38Z",
-            "owner": "appvision-ai",
-            "repo": "fast-bert",
-            "stars": 1917
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "deepset-ai/FARM",
-          "description": "Simple & flexible transfer learning for the industry.",
-          "children": [],
-          "repo_info": {
-            "archived": true,
-            "language": "Python",
-            "last_commit": "2023-12-20T21:18:02Z",
-            "owner": "deepset-ai",
-            "repo": "FARM",
-            "stars": 1752
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "dhlee347/pytorchic-bert",
-          "description": "A Pytorch implementation of Google BERT.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2020-03-29T13:48:14Z",
-            "owner": "dhlee347",
-            "repo": "pytorchic-bert",
-            "stars": 600
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "facebook/MMBT",
-          "description": "from Facebook AI - Multimodal transformers model that can accept a transformer model and a computer vision model for classifying image and text.",
-          "children": [],
-          "repo_info": {
-            "archived": true,
-            "language": "Python",
-            "last_commit": "2021-06-14T22:38:27Z",
-            "owner": "facebookresearch",
-            "repo": "mmbt",
-            "stars": 254
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "dreamgonfly/BERT-pytorch",
-          "description": "A PyTorch implementation of BERT in \"BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding\".",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2018-11-01T12:36:00Z",
-            "owner": "dreamgonfly",
-            "repo": "BERT-pytorch",
-            "stars": 110
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "innodatalabs/tbert",
-          "description": "PyTorch port of BERT ML model.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2019-02-19T00:33:04Z",
-            "owner": "innodatalabs",
-            "repo": "tbert",
-            "stars": 17
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "pingpong-ai/xlnet-pytorch",
-          "description": "A Pytorch implementation of Google Brain XLNet.",
-          "children": []
-        }
-      ],
-      "title": "PyTorch"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "bojone/bert4keras",
-          "description": "Light reimplement of BERT for Keras.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2024-11-11T15:41:47Z",
-            "owner": "bojone",
-            "repo": "bert4keras",
-            "stars": 5415
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "CyberZHG/keras-bert",
-          "description": "Implementation of BERT that could load official pre-trained models for feature extraction and prediction.",
-          "children": [],
-          "repo_info": {
-            "archived": true,
-            "language": "Python",
-            "last_commit": "2022-01-22T10:33:11Z",
-            "owner": "CyberZHG",
-            "repo": "keras-bert",
-            "stars": 2419
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Separius/BERT-keras",
-          "description": "Keras implementation of BERT with pre-trained weights.",
-          "children": [],
-          "repo_info": {
-            "archived": true,
-            "language": "Python",
-            "last_commit": "2019-07-26T09:36:13Z",
-            "owner": "Separius",
-            "repo": "BERT-keras",
-            "stars": 813
-          }
-        }
-      ],
-      "title": "Keras"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "zihangdai/xlnet",
-          "description": "Code repository associated with the XLNet paper.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2023-05-28T15:42:23Z",
-            "owner": "zihangdai",
-            "repo": "xlnet",
-            "stars": 6188
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "kimiyoung/transformer-xl",
-          "description": "Code repository associated with the Transformer-XL paper.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2022-09-21T06:22:01Z",
-            "owner": "kimiyoung",
-            "repo": "transformer-xl",
-            "stars": 3714
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "guotong1988/BERT-tensorflow",
-          "description": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding.",
-          "children": []
-        }
-      ],
-      "title": "TensorFlow"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "llama.cpp",
-          "description": "Port of Facebook's LLaMA model in C/C++.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "C++",
-            "last_commit": "2026-08-18T08:30:08Z",
-            "owner": "ggml-org",
-            "repo": "llama.cpp",
-            "stars": 124453
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Transformers.js",
-          "description": "Run 🤗 Transformers in your browser.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2026-08-14T06:38:18Z",
-            "owner": "huggingface",
-            "repo": "transformers.js",
-            "stars": 16261
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Alpaca.cpp",
-          "description": "Run a fast ChatGPT-like model locally on your device.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "C",
-            "last_commit": "2023-04-19T14:43:04Z",
-            "owner": "antimatter15",
-            "repo": "alpaca.cpp",
-            "stars": 10118
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Apple Neural Engine (ANE) Transformers",
-          "description": "Transformer architecture optimized for Apple Silicon.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2023-04-25T09:24:38Z",
-            "owner": "apple",
-            "repo": "ml-ane-transformers",
-            "stars": 2733
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Cformers",
-          "description": "SoTA Transformers with C-backend for fast inference on your CPU.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "C",
-            "last_commit": "2023-12-09T18:07:48Z",
-            "owner": "NolanoOrg",
-            "repo": "cformers",
-            "stars": 312
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "LLaMA compatible port",
+          "title": "tomohideshibata/BERT-related papers",
           "description": null,
           "children": [],
           "repo_info": {
             "archived": false,
-            "language": "Jupyter Notebook",
-            "last_commit": "2024-07-07T14:20:43Z",
-            "owner": "cedrickchee",
-            "repo": "llama",
-            "stars": 31
+            "id": 191561918,
+            "language": null,
+            "last_commit": "2023-08-12T08:28:50Z",
+            "owner": "tomohideshibata",
+            "repo": "BERT-related-papers",
+            "stars": 2032
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity",
+          "description": "by Google Brain. [Code] | [Blog post (unofficial)]",
+          "children": [],
+          "repo_info": {
+            "archived": true,
+            "id": 149666254,
+            "language": "Python",
+            "last_commit": "2023-11-17T19:39:54Z",
+            "owner": "tensorflow",
+            "repo": "mesh",
+            "stars": 1630
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Scaling Instruction-Finetuned Language Models",
+          "description": "by Google - They find that instruction finetuning with the above aspects dramatically improves performance on a variety of model classes (PaLM, T5, U-PaLM), prompting setups (zero-shot, few-shot, CoT), and evaluation benchmarks. Flan-PaLM 540B achieves SoTA performance on several benchmarks. They also publicly release Flan-T5 checkpoints, which achieve strong few-shot performance even compared to much larger models, such as PaLM 62B.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 423593369,
+            "language": "Python",
+            "last_commit": "2026-08-03T12:03:08Z",
+            "owner": "google-research",
+            "repo": "t5x",
+            "stars": 2995
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Nonparametric Masked (NPM) Language Modeling",
+          "description": "by Meta AI et al. [code] - Nonparametric models with 500x fewer parameters outperform GPT-3 on zero-shot tasks.",
+          "children": [],
+          "repo_info": {
+            "archived": true,
+            "id": 580837668,
+            "language": "Python",
+            "last_commit": "2023-01-06T04:01:56Z",
+            "owner": "facebookresearch",
+            "repo": "NPM",
+            "stars": 159
           }
         }
       ],
-      "title": "Other"
+      "title": "Papers"
     },
     {
-      "description": "MultiFiT: Efficient Multi-lingual Language Model Fine-tuning by Sebastian Ruder et al. MultiFiT extends ULMFiT to make it more efficient and more suitable for language modelling beyond English. (EMNLP 2019 paper)",
-      "items": [],
-      "title": "Transfer Learning in NLP"
+      "description": null,
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "DistilBERT",
+              "description": "(from HuggingFace), released together with the blog post Smaller, faster, cheaper, lighter: Introducing DistilBERT, a distilled version of BERT.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 155220641,
+                "language": "Python",
+                "last_commit": "2026-08-19T08:54:43Z",
+                "owner": "huggingface",
+                "repo": "transformers",
+                "stars": 164246
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations paper",
+              "description": "from Google Research and Toyota Technological Institute. — Improvements for more efficient parameter usage: factorized embedding parameterization, cross-layer parameter sharing, and Sentence Order Prediction (SOP) loss to model inter-sentence coherence. [Blog post | Code]",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 224296809,
+                "language": "Python",
+                "last_commit": "2023-04-14T18:02:55Z",
+                "owner": "google-research",
+                "repo": "albert",
+                "stars": 3279
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators",
+              "description": "by Kevin Clark, Minh-Thang Luong, Quoc V. Le, and Christopher D. Manning - A BERT variant like ALBERT and cost less to train. They trained a model that outperforms GPT by using only one GPU; match the performance of RoBERTa by using 1/4 computation. It uses a new pre-training approach, called replaced token detection (RTD), that trains a bidirectional model while learning from all input positions. [Blog post | Code]",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 246201728,
+                "language": "Python",
+                "last_commit": "2024-03-23T03:59:14Z",
+                "owner": "google-research",
+                "repo": "electra",
+                "stars": 2367
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "BERT and Transformer"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness (paper)",
+              "description": "by Stanford University et al., 2022 - Transformers have grown deeper and wider, but training them on long sequences remains difficult. The attention layer at their heart is the compute and memory bottleneck: doubling the sequence length would quadruple the runtime and memory requirements. FlashAttention is a new algorithm to speed up attention and reduce its memory footprint—without any approximation. It enables training LLMs with longer context. [code]",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 494232964,
+                "language": "Python",
+                "last_commit": "2026-08-19T08:12:39Z",
+                "owner": "Dao-AILab",
+                "repo": "flash-attention",
+                "stars": 24737
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "DETR (DEtection TRansformer): End-to-End Object Detection with Transformers",
+              "description": "by FAIR - :fire: Computer vision has not yet been swept up by the Transformer revolution. DETR completely changes the architecture compared with previous object detection systems. (PyTorch Code and pretrained models). \"A solid swing at (non-autoregressive) end-to-end detection. Anchor boxes + Non-Max Suppression (NMS) is a mess. I was hoping detection would go end-to-end back in ~2013)\" — Andrej Karpathy",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 267176885,
+                "language": "Python",
+                "last_commit": "2024-03-12T15:58:25Z",
+                "owner": "facebookresearch",
+                "repo": "detr",
+                "stars": 15355
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "A Length-Extrapolatable Transformer (paper)",
+              "description": "by Microsoft (2022) [TorchScale code] - This improves modeling capability of scaling Transformers.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 567185522,
+                "language": "Python",
+                "last_commit": "2024-04-11T13:58:57Z",
+                "owner": "microsoft",
+                "repo": "torchscale",
+                "stars": 3138
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "google-research/meliad",
+              "description": "The Meliad library is collection of models which are being developed as part of ongoing Google research into various architectural improvements in deep learning. The library currently consists of several transformer variations, which explore ways in which the popular transformer architecture can be extended to better support language modeling over long sequences. The variations are Memorizing Transformer, Transformer with sliding window, Block-Recurrent Transformer, and more.",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 496790020,
+                "language": "Python",
+                "last_commit": "2025-06-06T03:03:17Z",
+                "owner": "google-research",
+                "repo": "meliad",
+                "stars": 260
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "PoSE: Efficient Context Window Extension of LLMs via Positional Skip-wise Training",
+              "description": "by Dawei Zhu et al., ICLR 2024 - PoSE simulates longer input sequences during training by manipulating the position indices within a fixed context window, rather than training on the full target length. This allows decoupling of the training length from the target context length, greatly reducing memory and computational requirements compared to full-length fine-tuning. PoSE successfully extended LLaMA-1 to support context lengths up to 128k tokens using only a 2k training window, with minimal performance degradation. This model uses PoSE to extend Llama-3 8B context length from 8k to 64k. PoSE has potential to scale context lengths even further, limited only by inference memory, as efficient inference techniques continue improving. [Code: PoSE]",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 693516590,
+                "language": "Python",
+                "last_commit": "2024-05-20T23:54:50Z",
+                "owner": "dwzhu-pku",
+                "repo": "PoSE",
+                "stars": 208
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Transformer Architecture"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "GPT-Neo",
+              "description": "Replicate a GPT-3 sized model and open source it for free. GPT-Neo is \"an implementation of model parallel GPT2 & GPT3-like models, with the ability to scale up to full GPT3 sizes (and possibly more!), using the mesh-tensorflow library.\" [Code].",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 277277803,
+                "language": "Python",
+                "last_commit": "2022-02-25T06:27:12Z",
+                "owner": "EleutherAI",
+                "repo": "gpt-neo",
+                "stars": 8268
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "elyase/awesome-gpt3",
+              "description": "A collection of demos and articles about the OpenAI GPT-3 API.",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 281651068,
+                "language": null,
+                "last_commit": "2023-08-27T11:46:48Z",
+                "owner": "elyase",
+                "repo": "awesome-gpt3",
+                "stars": 4520
+              }
+            }
+          ],
+          "description": "GPT visualization",
+          "node_type": "group",
+          "title": "Generative Pre-Training Transformer (GPT)"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Introducing Llama 3: The most capable openly available LLM to date (article)",
+              "description": "by Meta AI, 2024 - In the coming months, they’ll share the Llama 3 research paper. [Code]",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 772699441,
+                "language": "Python",
+                "last_commit": "2025-01-26T21:39:06Z",
+                "owner": "meta-llama",
+                "repo": "llama3",
+                "stars": 29252
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "GLM-130B: An Open Bilingual (Chinese and English) Pre-Trained Model (code and paper)",
+              "description": "by Tsinghua University, China [article] - One of the major contributions is making LLMs cost affordable using int4 quantization so it can run in limited compute environments.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 521021013,
+                "language": "Python",
+                "last_commit": "2023-07-25T09:01:49Z",
+                "owner": "zai-org",
+                "repo": "GLM-130B",
+                "stars": 7654
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "GPT-NeoX-20B",
+              "description": "A 20 billion parameter model trained using EleutherAI’s GPT-NeoX framework. They expect it to perform well on many tasks. You can try out the model on GooseAI playground.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 323651234,
+                "language": "Python",
+                "last_commit": "2026-06-11T19:25:44Z",
+                "owner": "EleutherAI",
+                "repo": "gpt-neox",
+                "stars": 7455
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Metaseq",
+              "description": "A codebase for working with Open Pre-trained Transformers (OPT).",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 488004650,
+                "language": "Python",
+                "last_commit": "2024-04-27T22:15:40Z",
+                "owner": "facebookresearch",
+                "repo": "metaseq",
+                "stars": 6547
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "OPT-IML (OPT + Instruction Meta-Learning) (paper)",
+              "description": "by Meta AI - OPT-IML is a set of instruction-tuned versions of OPT, on a collection of ~2000 NLP tasks — for research use cases. It boosts the performance of the original OPT-175B model using instruction tuning to improve zero-shot and few-shot generalization abilities — allowing it to adapt for more diverse language applications (i.e., answering Q’s, summarizing text). This improves the model's ability to better process natural instruction style prompts. Ultimately, humans should be able to \"talk\" to models as naturally and fluidly as possible. [code (available soon), weights released]",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 488004650,
+                "language": "Python",
+                "last_commit": "2024-04-27T22:15:40Z",
+                "owner": "facebookresearch",
+                "repo": "metaseq",
+                "stars": 6547
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Multimodal Chain-of-Thought Reasoning in Language Models (paper)",
+              "description": "by Amazon Web Service et al., 2023 - The model outperform GPT-3.5 by 16% on the ScienceQA benchmark. This work is the first to study CoT reasoning in different modalities, language (text) and vision (images). Unfortunately, they never provide ablation study on how much of that performance gain was caused by the new modalities. [code]",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 596424141,
+                "language": "Python",
+                "last_commit": "2024-06-12T13:50:10Z",
+                "owner": "amazon-science",
+                "repo": "mm-cot",
+                "stars": 3985
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "YaLM 100B",
+              "description": "by Yandex is a GPT-like pretrained language model with 100B parameters for generating and processing text. It can be used freely by developers and researchers from all over the world.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 506323402,
+                "language": "Python",
+                "last_commit": "2023-07-10T00:54:27Z",
+                "owner": "yandex",
+                "repo": "YaLM-100B",
+                "stars": 3756
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "GPT-Code-Clippy (GPT-CC)",
+              "description": "An open source version of GitHub Copilot. The GPT-CC models are fine-tuned versions of GPT-2 and GPT-Neo.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 382145926,
+                "language": "Python",
+                "last_commit": "2022-01-18T12:29:23Z",
+                "owner": "CodedotAl",
+                "repo": "gpt-code-clippy",
+                "stars": 3264
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "jeffhj/LM-reasoning",
+              "description": "This repository contains a collection of papers and resources on reasoning in Large Language Models.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 580204419,
+                "language": null,
+                "last_commit": "2023-11-13T08:44:02Z",
+                "owner": "jeffhj",
+                "repo": "LM-reasoning",
+                "stars": 571
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Unnatural Instructions: Tuning Language Models with (Almost) No Human Labor (paper)",
+              "description": "by Meta AI [data] - Fine-tuning a T5 on a large dataset collected with virtually no human labor leads to a model that surpassing the performance of models such as T0++ and Tk-Instruct across various benchmarks. These results demonstrate the potential of model-generated data as a cost-effective alternative to crowdsourcing for dataset expansion and diversification.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 580013653,
+                "language": null,
+                "last_commit": "2023-02-23T06:26:18Z",
+                "owner": "orhonovich",
+                "repo": "unnatural-instructions",
+                "stars": 181
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Progressive Prompts: Continual Learning for Language Models (paper)",
+              "description": "by Meta AI et al., 2023 - Current LLMs have hard time with catastrophic forgetting and leveraging past experiences. The approach learns a prompt for new task and concatenates with frozen previously learned prompts. This efficiently transfers knowledge to future tasks. [code]",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 561044523,
+                "language": "Python",
+                "last_commit": "2023-04-24T04:46:29Z",
+                "owner": "arazd",
+                "repo": "ProgressivePrompts",
+                "stars": 97
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "RECITE: Recitation-Augmented Language Models (paper)",
+              "description": "by Google Research et al., ICLR 2023 - How can ChatGPT-like models achieve greater factual accuracy without relying on an external retrieval search engine? This paper shows that recitation can help LLMs generate accurate factual knowledge by reciting relevant passages from their own memory (by sampling) before producing final answers. The core idea is motivated by the intuition: recite-step that recollects relevant knowledge pieces helps answer-step (generation) better output. That's a recite-answer paradigm: first ask the LLM to generate the support paragraphs that contain the answer (knowledge-recitation) and then use it as additional prompt, along with the question to ask the LLM to generate the answer. They verify the effectiveness on four LLMs. They also show that recitation can be more effective than retrieval. This is important since having a retriever may lead to unpredictable behavior (i.e., Bing/Sydney). [code]",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 601839345,
+                "language": "Python",
+                "last_commit": "2023-02-22T22:54:32Z",
+                "owner": "Edward-Sun",
+                "repo": "RECITE",
+                "stars": 96
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "LLaMA: Open and Efficient Foundation Language Models (paper)",
+              "description": "by Meta AI, 2023 - A collection of language models ranging from 7B to 65B parameters. LLaMA-13B outperforms GPT-3 (175B) on most benchmarks, and LLaMA-65B is competitive with the best models, Chinchilla70B and PaLM-540B. This shows that smaller models trained with more data can outperform larger models. This is not contradictory to anything in the Chinchilla paper, because it's not compute-optimally trained. GPU hours for training 7B model=82,432, 65B model=1,022,362 :scream:. Total time spent for all models: 2048 A100-80GB GPU for a period of approximately 5 months. The 65B model cost something in the range of ~$1-4M. Access to the model will be granted on a case-by-case basis though. People interested can apply for access. (Mar 2: they just approved access to the models, llama-7B works in Colab cedrickchee/llama) [Takeaways: Tweet]",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 608695229,
+                "language": "Jupyter Notebook",
+                "last_commit": "2024-07-07T14:20:43Z",
+                "owner": "cedrickchee",
+                "repo": "llama",
+                "stars": 31
+              }
+            }
+          ],
+          "description": "ChatGPT among the LLMs",
+          "node_type": "group",
+          "title": "Large Language Model (LLM)"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "CarperAI/TRLX",
+                  "description": "Originated as a fork of TRL. It allows you to fine-tune Hugging Face language models (GPT2, GPT-NeoX based) up to 20B parameters using Reinforcement Learning. Brought to you by CarperAI (born at EleutherAI, an org part of StabilityAI family). CarperAI is developing production ready open-source RLHF tools. They have announced plans for the first open-source \"instruction-tuned\" LM.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 545104023,
+                    "language": "Python",
+                    "last_commit": "2024-01-08T20:07:19Z",
+                    "owner": "CarperAI",
+                    "repo": "trlx",
+                    "stars": 4754
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "allenai/RL4LMs",
+                  "description": "RL for language models (RL4LMs) by Allen AI. It's a modular RL library to fine-tune language models to human preferences.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 526069335,
+                    "language": "Python",
+                    "last_commit": "2024-03-01T14:03:46Z",
+                    "owner": "allenai",
+                    "repo": "RL4LMs",
+                    "stars": 2394
+                  }
+                }
+              ],
+              "description": "Open source effort towards ChatGPT:",
+              "node_type": "group",
+              "title": "Tools for RLHF"
+            }
+          ],
+          "description": "Transformer Reinforcement Learning from Human Feedback (RLHF).",
+          "node_type": "group",
+          "title": "Transformer Reinforcement Learning"
+        }
+      ],
+      "title": "Articles"
     },
     {
-      "description": "",
+      "description": "GPT and/or BERT implementations.",
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "🤗 Hugging Face Transformers",
+              "description": "(formerly known as pytorch-transformers and pytorch-pretrained-bert) provides state-of-the-art general-purpose architectures (BERT, GPT-2, RoBERTa, XLM, DistilBert, XLNet, CTRL...) for Natural Language Understanding (NLU) and Natural Language Generation (NLG) with over 32+ pretrained models in 100+ languages and deep interoperability between TensorFlow 2.0 and PyTorch. [Paper]",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 155220641,
+                "language": "Python",
+                "last_commit": "2026-08-19T08:54:43Z",
+                "owner": "huggingface",
+                "repo": "transformers",
+                "stars": 164246
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "FasterTransformer",
+              "description": "Transformer related optimization, including BERT and GPT. This repo provides a script and recipe to run the highly optimized transformer-based encoder and decoder component, and it is tested and maintained by NVIDIA.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 354138793,
+                "language": "C++",
+                "last_commit": "2024-03-27T11:25:30Z",
+                "owner": "NVIDIA",
+                "repo": "FasterTransformer",
+                "stars": 6446
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "spacy-transformers",
+              "description": "a library that wrap Hugging Face's Transformers, in order to extract features to power NLP pipelines. It also calculates an alignment so the Transformer features can be related back to actual words instead of just wordpieces.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 199068120,
+                "language": "Python",
+                "last_commit": "2026-03-27T08:49:39Z",
+                "owner": "explosion",
+                "repo": "spacy-transformers",
+                "stars": 1408
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "PyTorch and TensorFlow"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "facebook/fairseq",
+              "description": "RoBERTa: A Robustly Optimized BERT Pretraining Approach by Facebook AI Research. SoTA results on GLUE, SQuAD and RACE.",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 101782647,
+                "language": "Python",
+                "last_commit": "2025-09-30T11:16:06Z",
+                "owner": "facebookresearch",
+                "repo": "fairseq",
+                "stars": 32236
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "NVIDIA/NeMo",
+              "description": "Neural Modules is a toolkit for conversational AI by NVIDIA. They are trying to improve speech recognition with BERT post-processing.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 200722670,
+                "language": "Python",
+                "last_commit": "2026-08-19T02:13:28Z",
+                "owner": "NVIDIA-NeMo",
+                "repo": "Speech",
+                "stars": 18174
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "NVIDIA/Megatron-LM",
+              "description": "Ongoing research training transformer language models at scale, including: BERT.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 176982014,
+                "language": "Python",
+                "last_commit": "2026-08-19T08:52:10Z",
+                "owner": "NVIDIA",
+                "repo": "Megatron-LM",
+                "stars": 17477
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "codertimo/BERT-pytorch",
+              "description": "Google AI 2018 BERT pytorch implementation.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 153113207,
+                "language": "Python",
+                "last_commit": "2023-09-15T12:57:08Z",
+                "owner": "codertimo",
+                "repo": "BERT-pytorch",
+                "stars": 6528
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "lucidrains/x-transformers",
+              "description": "A simple but complete full-attention transformer with a set of promising experimental features from various papers (good for learning purposes). There is a 2021 paper rounding up Transformer modifications, Do Transformer Modifications Transfer Across Implementations and Applications?.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 306980630,
+                "language": "Python",
+                "last_commit": "2026-08-09T00:02:06Z",
+                "owner": "lucidrains",
+                "repo": "x-transformers",
+                "stars": 5936
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "kimiyoung/transformer-xl",
+              "description": "Code repository associated with the Transformer-XL paper.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 164642888,
+                "language": "Python",
+                "last_commit": "2022-09-21T06:22:01Z",
+                "owner": "kimiyoung",
+                "repo": "transformer-xl",
+                "stars": 3714
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "dbiir/UER-py",
+              "description": "from Tencent and RUC - Open Source Pre-training Model Framework in PyTorch & Pre-trained Model Zoo (with more focus on Chinese).",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 180572200,
+                "language": "Python",
+                "last_commit": "2024-05-09T11:12:55Z",
+                "owner": "dbiir",
+                "repo": "UER-py",
+                "stars": 3112
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "kaushaltrivedi/fast-bert",
+              "description": "Super easy library for BERT based NLP models. Built based on 🤗 Transformers and is inspired by fast.ai.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 182163054,
+                "language": "Python",
+                "last_commit": "2024-08-19T09:41:38Z",
+                "owner": "appvision-ai",
+                "repo": "fast-bert",
+                "stars": 1917
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "deepset-ai/FARM",
+              "description": "Simple & flexible transfer learning for the industry.",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 197409619,
+                "language": "Python",
+                "last_commit": "2023-12-20T21:18:02Z",
+                "owner": "deepset-ai",
+                "repo": "FARM",
+                "stars": 1752
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "dhlee347/pytorchic-bert",
+              "description": "A Pytorch implementation of Google BERT.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 161426593,
+                "language": "Python",
+                "last_commit": "2020-03-29T13:48:14Z",
+                "owner": "dhlee347",
+                "repo": "pytorchic-bert",
+                "stars": 600
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "facebook/MMBT",
+              "description": "from Facebook AI - Multimodal transformers model that can accept a transformer model and a computer vision model for classifying image and text.",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 209901820,
+                "language": "Python",
+                "last_commit": "2021-06-14T22:38:27Z",
+                "owner": "facebookresearch",
+                "repo": "mmbt",
+                "stars": 254
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "dreamgonfly/BERT-pytorch",
+              "description": "A PyTorch implementation of BERT in \"BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding\".",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 153815494,
+                "language": "Python",
+                "last_commit": "2018-11-01T12:36:00Z",
+                "owner": "dreamgonfly",
+                "repo": "BERT-pytorch",
+                "stars": 110
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "innodatalabs/tbert",
+              "description": "PyTorch port of BERT ML model.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 156621649,
+                "language": "Python",
+                "last_commit": "2019-02-19T00:33:04Z",
+                "owner": "innodatalabs",
+                "repo": "tbert",
+                "stars": 17
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "PyTorch"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "bojone/bert4keras",
+              "description": "Light reimplement of BERT for Keras.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 204388414,
+                "language": "Python",
+                "last_commit": "2024-11-11T15:41:47Z",
+                "owner": "bojone",
+                "repo": "bert4keras",
+                "stars": 5415
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "CyberZHG/keras-bert",
+              "description": "Implementation of BERT that could load official pre-trained models for feature extraction and prediction.",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 153859755,
+                "language": "Python",
+                "last_commit": "2022-01-22T10:33:11Z",
+                "owner": "CyberZHG",
+                "repo": "keras-bert",
+                "stars": 2419
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Separius/BERT-keras",
+              "description": "Keras implementation of BERT with pre-trained weights.",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 154273863,
+                "language": "Python",
+                "last_commit": "2019-07-26T09:36:13Z",
+                "owner": "Separius",
+                "repo": "BERT-keras",
+                "stars": 813
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Keras"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "zihangdai/xlnet",
+              "description": "Code repository associated with the XLNet paper.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 192689297,
+                "language": "Python",
+                "last_commit": "2023-05-28T15:42:23Z",
+                "owner": "zihangdai",
+                "repo": "xlnet",
+                "stars": 6188
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "kimiyoung/transformer-xl",
+              "description": "Code repository associated with the Transformer-XL paper.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 164642888,
+                "language": "Python",
+                "last_commit": "2022-09-21T06:22:01Z",
+                "owner": "kimiyoung",
+                "repo": "transformer-xl",
+                "stars": 3714
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "TensorFlow"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "llama.cpp",
+              "description": "Port of Facebook's LLaMA model in C/C++.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 612354784,
+                "language": "C++",
+                "last_commit": "2026-08-19T08:46:01Z",
+                "owner": "ggml-org",
+                "repo": "llama.cpp",
+                "stars": 124631
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Transformers.js",
+              "description": "Run 🤗 Transformers in your browser.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 601161044,
+                "language": "JavaScript",
+                "last_commit": "2026-08-14T06:38:18Z",
+                "owner": "huggingface",
+                "repo": "transformers.js",
+                "stars": 16260
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Alpaca.cpp",
+              "description": "Run a fast ChatGPT-like model locally on your device.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 614803132,
+                "language": "C",
+                "last_commit": "2023-04-19T14:43:04Z",
+                "owner": "antimatter15",
+                "repo": "alpaca.cpp",
+                "stars": 10118
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Apple Neural Engine (ANE) Transformers",
+              "description": "Transformer architecture optimized for Apple Silicon.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 499580907,
+                "language": "Python",
+                "last_commit": "2023-04-25T09:24:38Z",
+                "owner": "apple",
+                "repo": "ml-ane-transformers",
+                "stars": 2733
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Cformers",
+              "description": "SoTA Transformers with C-backend for fast inference on your CPU.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 616080828,
+                "language": "C",
+                "last_commit": "2023-12-09T18:07:48Z",
+                "owner": "NolanoOrg",
+                "repo": "cformers",
+                "stars": 312
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "LLaMA compatible port",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 608695229,
+                "language": "Jupyter Notebook",
+                "last_commit": "2024-07-07T14:20:43Z",
+                "owner": "cedrickchee",
+                "repo": "llama",
+                "stars": 31
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Other"
+        }
+      ],
+      "title": "Transformer Implementations By Communities"
+    },
+    {
+      "description": null,
       "items": [
         {
           "node_type": "item",
@@ -753,11 +975,12 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 157198623,
             "language": "Python",
             "last_commit": "2024-01-23T10:33:43Z",
             "owner": "jina-ai",
             "repo": "clip-as-service",
-            "stars": 12834
+            "stars": 12833
           }
         },
         {
@@ -767,6 +990,7 @@
           "children": [],
           "repo_info": {
             "archived": true,
+            "id": 179196443,
             "language": "Python",
             "last_commit": "2020-07-25T15:50:31Z",
             "owner": "latitudegames",
@@ -781,6 +1005,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 245949080,
             "language": "Python",
             "last_commit": "2026-06-17T15:37:19Z",
             "owner": "turtlesoupy",
@@ -795,6 +1020,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 154396042,
             "language": "Python",
             "last_commit": "2019-01-01T16:54:54Z",
             "owner": "brightmart",
@@ -809,6 +1035,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 154923689,
             "language": "Python",
             "last_commit": "2018-10-27T06:00:47Z",
             "owner": "Y1ran",
@@ -823,6 +1050,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 159620189,
             "language": "Jupyter Notebook",
             "last_commit": "2023-04-12T06:03:03Z",
             "owner": "JayYip",
@@ -837,6 +1065,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 162851672,
             "language": "Jupyter Notebook",
             "last_commit": "2021-02-15T01:20:29Z",
             "owner": "yoheikikuta",
@@ -851,6 +1080,7 @@
           "children": [],
           "repo_info": {
             "archived": true,
+            "id": 160595817,
             "language": "Jupyter Notebook",
             "last_commit": "2023-06-12T18:59:00Z",
             "owner": "microsoft",
@@ -865,6 +1095,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 159764910,
             "language": "Python",
             "last_commit": "2024-03-06T06:20:47Z",
             "owner": "xu-song",
@@ -879,6 +1110,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 161440494,
             "language": "Python",
             "last_commit": "2018-12-12T06:38:30Z",
             "owner": "practicingman",
@@ -893,6 +1125,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 159603246,
             "language": "Python",
             "last_commit": "2018-12-04T02:21:10Z",
             "owner": "whqwill",
@@ -907,6 +1140,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 160133665,
             "language": "Python",
             "last_commit": "2019-02-24T01:13:48Z",
             "owner": "HighCWu",
@@ -921,6 +1155,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 157370657,
             "language": "Python",
             "last_commit": "2018-12-27T13:08:35Z",
             "owner": "yuanxiaosc",
@@ -935,6 +1170,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 158069676,
             "language": "Python",
             "last_commit": "2018-11-29T08:27:18Z",
             "owner": "Pydataman",
@@ -949,6 +1185,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 157138841,
             "language": "Python",
             "last_commit": "2018-12-13T03:21:08Z",
             "owner": "middle-plat-ai",
@@ -963,36 +1200,19 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 158539432,
             "language": "Python",
             "last_commit": "2022-11-18T03:20:11Z",
             "owner": "Willyoung2017",
             "repo": "Bert_Attempt",
             "stars": 0
           }
-        },
-        {
-          "node_type": "item",
-          "title": "yangbisheng2009/cn-bert",
-          "description": null,
-          "children": []
-        },
-        {
-          "node_type": "item",
-          "title": "guotong1988/BERT-chinese",
-          "description": "Pre-training of deep bidirectional transformers for Chinese language understanding.",
-          "children": []
-        },
-        {
-          "node_type": "item",
-          "title": "zhongyunuestc/bert_multitask",
-          "description": "Multi-task.",
-          "children": []
         }
       ],
       "title": "Other Resources"
     },
     {
-      "description": "",
+      "description": null,
       "items": [
         {
           "node_type": "item",
@@ -1001,6 +1221,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 162021652,
             "language": "Python",
             "last_commit": "2026-01-08T22:38:46Z",
             "owner": "jessevig",
@@ -1015,6 +1236,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 182163054,
             "language": "Python",
             "last_commit": "2024-08-19T09:41:38Z",
             "owner": "appvision-ai",
@@ -1026,364 +1248,357 @@
       "title": "Tools"
     },
     {
-      "description": "",
-      "items": [],
+      "description": null,
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "macanv/BERT-BiLSMT-CRF-NER",
+              "description": "TensorFlow solution of NER task using Bi-LSTM-CRF model with Google BERT fine-tuning.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 159004094,
+                "language": "Python",
+                "last_commit": "2021-02-24T02:13:06Z",
+                "owner": "macanv",
+                "repo": "BERT-BiLSTM-CRF-NER",
+                "stars": 4908
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "kyzhouhzau/BERT-NER",
+              "description": "Use google BERT to do CoNLL-2003 NER.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 156503444,
+                "language": "Python",
+                "last_commit": "2022-05-19T05:06:32Z",
+                "owner": "kaiyinzhou",
+                "repo": "BERT-NER",
+                "stars": 1278
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "ProHiryu/bert-chinese-ner",
+              "description": "Use the pre-trained language model BERT to do Chinese NER.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 159430135,
+                "language": "Python",
+                "last_commit": "2020-02-26T05:58:03Z",
+                "owner": "ProHiryu",
+                "repo": "bert-chinese-ner",
+                "stars": 972
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "FuYanzhe2/Name-Entity-Recognition",
+              "description": "Lstm-CRF, Lattice-CRF, recent NER related papers.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 160286108,
+                "language": "Python",
+                "last_commit": "2018-12-07T01:38:41Z",
+                "owner": "FuYanzhe2",
+                "repo": "Name-Entity-Recognition",
+                "stars": 567
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "sberbank-ai/ner-bert",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 158529372,
+                "language": "Jupyter Notebook",
+                "last_commit": "2020-02-03T13:30:37Z",
+                "owner": "ai-forever",
+                "repo": "ner-bert",
+                "stars": 408
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "king-menin/ner-bert",
+              "description": "NER task solution (BERT-Bi-LSTM-CRF) with Google BERT https://github.com/google-research.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 158529372,
+                "language": "Jupyter Notebook",
+                "last_commit": "2020-02-03T13:30:37Z",
+                "owner": "ai-forever",
+                "repo": "ner-bert",
+                "stars": 408
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "zhpmatrix/bert-sequence-tagging",
+              "description": "Chinese sequence labeling.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 156714199,
+                "language": "Python",
+                "last_commit": "2018-11-08T14:04:09Z",
+                "owner": "zhpmatrix",
+                "repo": "bert-sequence-tagging",
+                "stars": 140
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "mhcao916/NER_Based_on_BERT",
+              "description": "This project is based on Google BERT model, which is a Chinese NER.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 160022105,
+                "language": "Python",
+                "last_commit": "2018-12-02T08:24:20Z",
+                "owner": "mhcao916",
+                "repo": "NER_Based_on_BERT",
+                "stars": 4
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Named-Entity Recognition (NER)"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "NLPScott/bert-Chinese-classification-task",
+              "description": "BERT Chinese classification practice.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 159150601,
+                "language": "Python",
+                "last_commit": "2018-12-11T07:10:49Z",
+                "owner": "NLPScott",
+                "repo": "bert-Chinese-classification-task",
+                "stars": 736
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "brightmart/sentiment_analysis_fine_grain",
+              "description": "Multi-label classification with BERT; Fine Grained Sentiment Analysis from AI challenger.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 155994397,
+                "language": "Jupyter Notebook",
+                "last_commit": "2018-11-15T13:13:29Z",
+                "owner": "brightmart",
+                "repo": "sentiment_analysis_fine_grain",
+                "stars": 592
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Socialbird-AILab/BERT-Classification-Tutorial",
+              "description": "Tutorial.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 159097177,
+                "language": "Python",
+                "last_commit": "2018-12-07T05:44:06Z",
+                "owner": "Socialbird-AILab",
+                "repo": "BERT-Classification-Tutorial",
+                "stars": 535
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "malteos/pytorch-bert-document-classification",
+              "description": "Enriching BERT with Knowledge Graph Embedding for Document Classification (PyTorch)",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 198645878,
+                "language": "Jupyter Notebook",
+                "last_commit": "2019-10-15T13:42:23Z",
+                "owner": "malteos",
+                "repo": "pytorch-bert-document-classification",
+                "stars": 161
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "zhpmatrix/Kaggle-Quora-Insincere-Questions-Classification",
+              "description": "Kaggle baseline—fine-tuning BERT and tensor2tensor based Transformer encoder solution.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 156986327,
+                "language": "Python",
+                "last_commit": "2018-11-11T06:22:51Z",
+                "owner": "zhpmatrix",
+                "repo": "Kaggle-Quora-Insincere-Questions-Classification",
+                "stars": 61
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "maksna/bert-fine-tuning-for-chinese-multiclass-classification",
+              "description": "Use Google pre-training model BERT to fine-tune for the Chinese multiclass classification.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 158519381,
+                "language": "Python",
+                "last_commit": "2018-11-22T07:12:57Z",
+                "owner": "maksna",
+                "repo": "bert-fine-tuning-for-chinese-multiclass-classification",
+                "stars": 41
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "xiaopingzhong/bert-finetune-for-classfier",
+              "description": "Fine-tuning the BERT model while building your own dataset for classification.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 159922036,
+                "language": "Python",
+                "last_commit": "2018-12-01T07:54:37Z",
+                "owner": "xiaopingzhong",
+                "repo": "Bert_Fine_Tune_For_Classfier",
+                "stars": 11
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Classification"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "facebookresearch/SpanBERT",
+              "description": "Question Answering on SQuAD; improving pre-training by representing and predicting spans.",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 205434302,
+                "language": "Python",
+                "last_commit": "2023-07-25T16:49:50Z",
+                "owner": "facebookresearch",
+                "repo": "SpanBERT",
+                "stars": 907
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "matthew-z/R-net",
+              "description": "R-net in PyTorch, with BERT and ELMo.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 98606625,
+                "language": "Python",
+                "last_commit": "2019-11-12T17:18:09Z",
+                "owner": "matthew-z",
+                "repo": "R-net",
+                "stars": 195
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "xzp27/BERT-for-Chinese-Question-Answering",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 160308478,
+                "language": "Python",
+                "last_commit": "2019-04-10T11:08:56Z",
+                "owner": "eva-n27",
+                "repo": "BERT-for-Chinese-Question-Answering",
+                "stars": 78
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "benywon/ChineseBert",
+              "description": "This is a Chinese BERT model specific for question answering.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 158323226,
+                "language": "Python",
+                "last_commit": "2019-08-08T11:35:01Z",
+                "owner": "benywon",
+                "repo": "ChineseBert",
+                "stars": 27
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Question Answering (QA)"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "sakuranew/BERT-AttributeExtraction",
+              "description": "Using BERT for attribute extraction in knowledge graph. Fine-tuning and feature extraction. The BERT-based fine-tuning and feature extraction methods are used to extract knowledge attributes of Baidu Encyclopedia characters.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 161633979,
+                "language": "Python",
+                "last_commit": "2019-04-01T13:12:48Z",
+                "owner": "sakuranew",
+                "repo": "BERT-AttributeExtraction",
+                "stars": 266
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "lvjianxin/Knowledge-extraction",
+              "description": "Chinese knowledge-based extraction. Baseline: bi-LSTM+CRF upgrade: BERT pre-training.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 158905936,
+                "language": "Python",
+                "last_commit": "2018-12-28T06:47:34Z",
+                "owner": "lvjianxin",
+                "repo": "Knowledge-extraction",
+                "stars": 47
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Knowledge Graph"
+        }
+      ],
       "title": "Tasks"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "macanv/BERT-BiLSMT-CRF-NER",
-          "description": "TensorFlow solution of NER task using Bi-LSTM-CRF model with Google BERT fine-tuning.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2021-02-24T02:13:06Z",
-            "owner": "macanv",
-            "repo": "BERT-BiLSTM-CRF-NER",
-            "stars": 4907
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "kyzhouhzau/BERT-NER",
-          "description": "Use google BERT to do CoNLL-2003 NER.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2022-05-19T05:06:32Z",
-            "owner": "kaiyinzhou",
-            "repo": "BERT-NER",
-            "stars": 1278
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "ProHiryu/bert-chinese-ner",
-          "description": "Use the pre-trained language model BERT to do Chinese NER.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2020-02-26T05:58:03Z",
-            "owner": "ProHiryu",
-            "repo": "bert-chinese-ner",
-            "stars": 972
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "FuYanzhe2/Name-Entity-Recognition",
-          "description": "Lstm-CRF, Lattice-CRF, recent NER related papers.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2018-12-07T01:38:41Z",
-            "owner": "FuYanzhe2",
-            "repo": "Name-Entity-Recognition",
-            "stars": 567
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "sberbank-ai/ner-bert",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Jupyter Notebook",
-            "last_commit": "2020-02-03T13:30:37Z",
-            "owner": "ai-forever",
-            "repo": "ner-bert",
-            "stars": 408
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "king-menin/ner-bert",
-          "description": "NER task solution (BERT-Bi-LSTM-CRF) with Google BERT https://github.com/google-research.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Jupyter Notebook",
-            "last_commit": "2020-02-03T13:30:37Z",
-            "owner": "ai-forever",
-            "repo": "ner-bert",
-            "stars": 408
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "zhpmatrix/bert-sequence-tagging",
-          "description": "Chinese sequence labeling.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2018-11-08T14:04:09Z",
-            "owner": "zhpmatrix",
-            "repo": "bert-sequence-tagging",
-            "stars": 140
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "mhcao916/NER_Based_on_BERT",
-          "description": "This project is based on Google BERT model, which is a Chinese NER.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2018-12-02T08:24:20Z",
-            "owner": "mhcao916",
-            "repo": "NER_Based_on_BERT",
-            "stars": 4
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "JamesGu14/BERT-NER-CLI",
-          "description": "Bert NER command line tester with step by step setup guide.",
-          "children": []
-        }
-      ],
-      "title": "Named-Entity Recognition (NER)"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "NLPScott/bert-Chinese-classification-task",
-          "description": "BERT Chinese classification practice.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2018-12-11T07:10:49Z",
-            "owner": "NLPScott",
-            "repo": "bert-Chinese-classification-task",
-            "stars": 736
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "brightmart/sentiment_analysis_fine_grain",
-          "description": "Multi-label classification with BERT; Fine Grained Sentiment Analysis from AI challenger.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Jupyter Notebook",
-            "last_commit": "2018-11-15T13:13:29Z",
-            "owner": "brightmart",
-            "repo": "sentiment_analysis_fine_grain",
-            "stars": 592
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Socialbird-AILab/BERT-Classification-Tutorial",
-          "description": "Tutorial.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2018-12-07T05:44:06Z",
-            "owner": "Socialbird-AILab",
-            "repo": "BERT-Classification-Tutorial",
-            "stars": 535
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "malteos/pytorch-bert-document-classification",
-          "description": "Enriching BERT with Knowledge Graph Embedding for Document Classification (PyTorch)",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Jupyter Notebook",
-            "last_commit": "2019-10-15T13:42:23Z",
-            "owner": "malteos",
-            "repo": "pytorch-bert-document-classification",
-            "stars": 161
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "zhpmatrix/Kaggle-Quora-Insincere-Questions-Classification",
-          "description": "Kaggle baseline—fine-tuning BERT and tensor2tensor based Transformer encoder solution.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2018-11-11T06:22:51Z",
-            "owner": "zhpmatrix",
-            "repo": "Kaggle-Quora-Insincere-Questions-Classification",
-            "stars": 61
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "maksna/bert-fine-tuning-for-chinese-multiclass-classification",
-          "description": "Use Google pre-training model BERT to fine-tune for the Chinese multiclass classification.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2018-11-22T07:12:57Z",
-            "owner": "maksna",
-            "repo": "bert-fine-tuning-for-chinese-multiclass-classification",
-            "stars": 41
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "xiaopingzhong/bert-finetune-for-classfier",
-          "description": "Fine-tuning the BERT model while building your own dataset for classification.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2018-12-01T07:54:37Z",
-            "owner": "xiaopingzhong",
-            "repo": "Bert_Fine_Tune_For_Classfier",
-            "stars": 11
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "fooSynaptic/BERT_classifer_trial",
-          "description": "BERT trial for Chinese corpus classfication.",
-          "children": []
-        }
-      ],
-      "title": "Classification"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "facebookresearch/SpanBERT",
-          "description": "Question Answering on SQuAD; improving pre-training by representing and predicting spans.",
-          "children": [],
-          "repo_info": {
-            "archived": true,
-            "language": "Python",
-            "last_commit": "2023-07-25T16:49:50Z",
-            "owner": "facebookresearch",
-            "repo": "SpanBERT",
-            "stars": 907
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "matthew-z/R-net",
-          "description": "R-net in PyTorch, with BERT and ELMo.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2019-11-12T17:18:09Z",
-            "owner": "matthew-z",
-            "repo": "R-net",
-            "stars": 195
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "xzp27/BERT-for-Chinese-Question-Answering",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2019-04-10T11:08:56Z",
-            "owner": "eva-n27",
-            "repo": "BERT-for-Chinese-Question-Answering",
-            "stars": 78
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "benywon/ChineseBert",
-          "description": "This is a Chinese BERT model specific for question answering.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2019-08-08T11:35:01Z",
-            "owner": "benywon",
-            "repo": "ChineseBert",
-            "stars": 27
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "vliu15/BERT",
-          "description": "TensorFlow implementation of BERT for QA.",
-          "children": []
-        }
-      ],
-      "title": "Question Answering (QA)"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "sakuranew/BERT-AttributeExtraction",
-          "description": "Using BERT for attribute extraction in knowledge graph. Fine-tuning and feature extraction. The BERT-based fine-tuning and feature extraction methods are used to extract knowledge attributes of Baidu Encyclopedia characters.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2019-04-01T13:12:48Z",
-            "owner": "sakuranew",
-            "repo": "BERT-AttributeExtraction",
-            "stars": 266
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "lvjianxin/Knowledge-extraction",
-          "description": "Chinese knowledge-based extraction. Baseline: bi-LSTM+CRF upgrade: BERT pre-training.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2018-12-28T06:47:34Z",
-            "owner": "lvjianxin",
-            "repo": "Knowledge-extraction",
-            "stars": 47
-          }
-        }
-      ],
-      "title": "Knowledge Graph"
-    },
-    {
-      "description": "This repository contains a variety of content; some developed by Cedric Chee, and some from third-parties. The third-party content is distributed under the license provided by those parties.\nI am providing code and resources in this repository to you under an open source license. Because this is my personal repository, the license you receive to my code and resources is from me and not my employer.\nThe content developed by Cedric Chee is distributed under the following license:",
-      "items": [],
-      "title": "License"
-    },
-    {
-      "description": "The code in this repository, including all code samples in the notebooks listed above, is released under the MIT license. Read more at the Open Source Initiative.",
-      "items": [],
-      "title": "Code"
-    },
-    {
-      "description": "The text content is released under the CC-BY-SA 4.0 license. Read more at Creative Commons.",
-      "items": [],
-      "title": "Text"
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-18T08:54:58.455Z",
+    "last_updated": "2026-08-19T08:55:50.968Z",
     "original_repository": "cedrickchee/awesome-transformer-nlp",
     "original_repository_sha": "594ec55d612bb1bddff6d3d44707864cb6594b08",
     "enhanced_repository": "enhansome/enhansome-transformer-nlp",
