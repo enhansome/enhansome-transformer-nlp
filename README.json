@@ -110,10 +110,10 @@
                 "archived": false,
                 "id": 155220641,
                 "language": "Python",
-                "last_commit": "2026-08-24T09:04:48Z",
+                "last_commit": "2026-08-24T14:07:06Z",
                 "owner": "huggingface",
                 "repo": "transformers",
-                "stars": 164390
+                "stars": 164394
               }
             },
             {
@@ -155,6 +155,28 @@
           "children": [
             {
               "node_type": "item",
+              "title": "Retrieval Head Mechanistically Explains Long-Context Factuality",
+              "description": "by Wenhao Wu, Yao Fu et al., 2024 - The paper explains how LLMs actually deal with context windows. The findings: they discover LLMs have unexpectedly developed retrieval heads, they were not explicitly coded for by creators. [Code: An algorithm that statistically calculate the retrieval score of attention heads in a transformer model]",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 788459169,
+                "language": "Python",
+                "last_commit": "2024-08-02T08:25:57Z",
+                "owner": "nightdessert",
+                "repo": "Retrieval_Head",
+                "stars": 241
+              }
+            }
+          ],
+          "description": "Visualizing Attention, a Transformer's Heart",
+          "node_type": "group",
+          "title": "Attention Mechanism"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
               "title": "FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness (paper)",
               "description": "by Stanford University et al., 2022 - Transformers have grown deeper and wider, but training them on long sequences remains difficult. The attention layer at their heart is the compute and memory bottleneck: doubling the sequence length would quadruple the runtime and memory requirements. FlashAttention is a new algorithm to speed up attention and reduce its memory footprint—without any approximation. It enables training LLMs with longer context. [code]",
               "children": [],
@@ -165,7 +187,7 @@
                 "last_commit": "2026-08-19T08:12:39Z",
                 "owner": "Dao-AILab",
                 "repo": "flash-attention",
-                "stars": 24768
+                "stars": 24769
               }
             },
             {
@@ -180,7 +202,7 @@
                 "last_commit": "2024-03-12T15:58:25Z",
                 "owner": "facebookresearch",
                 "repo": "detr",
-                "stars": 15353
+                "stars": 15354
               }
             },
             {
@@ -478,6 +500,21 @@
               "children": [
                 {
                   "node_type": "item",
+                  "title": "lvwerra/TRL",
+                  "description": "Train transformer language models with reinforcement learning.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 250510075,
+                    "language": "Python",
+                    "last_commit": "2026-08-24T13:59:53Z",
+                    "owner": "huggingface",
+                    "repo": "trl",
+                    "stars": 19144
+                  }
+                },
+                {
+                  "node_type": "item",
                   "title": "CarperAI/TRLX",
                   "description": "Originated as a fork of TRL. It allows you to fine-tune Hugging Face language models (GPT2, GPT-NeoX based) up to 20B parameters using Reinforcement Learning. Brought to you by CarperAI (born at EleutherAI, an org part of StabilityAI family). CarperAI is developing production ready open-source RLHF tools. They have announced plans for the first open-source \"instruction-tuned\" LM.",
                   "children": [],
@@ -515,9 +552,153 @@
           "description": "Transformer Reinforcement Learning from Human Feedback (RLHF).",
           "node_type": "group",
           "title": "Transformer Reinforcement Learning"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Turing-NLG: A 17-billion-parameter language model",
+              "description": "by Microsoft that outperforms the state of the art on many downstream NLP tasks. This work would not be possible without breakthroughs produced by the DeepSpeed library (compatible with PyTorch) and ZeRO optimizer, which can be explored more in this accompanying blog post.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 235860204,
+                "language": "Python",
+                "last_commit": "2026-08-24T10:36:36Z",
+                "owner": "deepspeedai",
+                "repo": "DeepSpeed",
+                "stars": 42985
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Mosaic LLMs (Part 2): GPT-3 quality for <$500k (2022)",
+              "description": "They claimed their Composer PyTorch framework ease model training. Now with Colossal-AI framework, I wonder how good is their solution. Until their users train it, I guess everything is purely hypothetical.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 416157128,
+                "language": "Python",
+                "last_commit": "2026-04-29T18:58:33Z",
+                "owner": "mosaicml",
+                "repo": "composer",
+                "stars": 5495
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Additional Reading"
         }
       ],
       "title": "Articles"
+    },
+    {
+      "description": null,
+      "items": [
+        {
+          "node_type": "item",
+          "title": "minGPT",
+          "description": "by Andrej Karpathy - A PyTorch re-implementation of GPT, both training and inference. minGPT tries to be small, clean, interpretable and educational, as most of the currently available GPT model implementations can a bit sprawling. GPT is not a complicated model and this implementation is appropriately about 300 lines of code.",
+          "children": [
+            {
+              "node_type": "item",
+              "title": "nanoGPT",
+              "description": "It's a re-write of minGPT. Still under active development. The associated and ongoing video lecture series Neural Networks: Zero to Hero, build GPT, from scratch, in code and aspire to spell everything out. Note that Karpathy's bottom up approach and fast.ai teaching style work well together. (FYI, fast.ai has both top-down (\"part 1\") and bottom-up (\"part 2\") approach.)",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 582822129,
+                "language": "Python",
+                "last_commit": "2025-11-12T19:52:34Z",
+                "owner": "karpathy",
+                "repo": "nanoGPT",
+                "stars": 62455
+              }
+            }
+          ],
+          "repo_info": {
+            "archived": false,
+            "id": 288108533,
+            "language": "Python",
+            "last_commit": "2024-08-15T04:09:40Z",
+            "owner": "karpathy",
+            "repo": "minGPT",
+            "stars": 24829
+          }
+        }
+      ],
+      "title": "Educational"
+    },
+    {
+      "description": "Interpretability research and AI alignment research.",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Tracr: Compiled Transformers as a Laboratory for Interpretability (paper)",
+          "description": "(2023) by DeepMind - TRACR (TRAnsformer Compiler for RASP) is a compiler for converting RASP programs (DSL for Transformers) into weights of a GPT-like model. Usually, we train Transformers to encode algorithms in their weights. With TRACR, we go in the reverse direction; compile weights directly from explicit code. Why do this? Accelerate interpretability research. Think of it like formal methods (from software eng.) on Transformers. It can be difficult to check if the explanation an interpretability tool provides is correct. [Tweet, code]",
+          "children": [],
+          "repo_info": {
+            "archived": true,
+            "id": 572915994,
+            "language": "Python",
+            "last_commit": "2024-02-05T19:15:16Z",
+            "owner": "google-deepmind",
+            "repo": "tracr",
+            "stars": 568
+          }
+        }
+      ],
+      "title": "AI Safety"
+    },
+    {
+      "description": null,
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Trials and tribulations of OPT-175B training by Susan Zhang at Meta",
+              "description": "In this talk, they walk through the development lifecycle of OPT-175B, covering infrastructure and training convergence challenges faced at scale, along with methods of addressing these issues going forward. Amazing that they managed to pull off such a feat. Key takeaway: data matters a lot! Super deep understanding of neural networks nuts&bolts (LR, SGD, etc.) and engineering. Even more than usual time spend staring at the loss curves. Understanding the Chinchilla's scaling law of how the new architecture/algorithms works as you scale up. [LLM training log]",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 488004650,
+                "language": "Python",
+                "last_commit": "2024-04-27T22:15:40Z",
+                "owner": "facebookresearch",
+                "repo": "metaseq",
+                "stars": 6547
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "General"
+        }
+      ],
+      "title": "Videos"
+    },
+    {
+      "description": null,
+      "items": [
+        {
+          "node_type": "item",
+          "title": "google-research/bert",
+          "description": "TensorFlow code and pre-trained models for BERT.",
+          "children": [],
+          "repo_info": {
+            "archived": true,
+            "id": 154747577,
+            "language": "Python",
+            "last_commit": "2024-07-23T23:39:41Z",
+            "owner": "google-research",
+            "repo": "bert",
+            "stars": 40046
+          }
+        }
+      ],
+      "title": "Official BERT Implementations"
     },
     {
       "description": "GPT and/or BERT implementations.",
@@ -533,10 +714,10 @@
                 "archived": false,
                 "id": 155220641,
                 "language": "Python",
-                "last_commit": "2026-08-24T09:04:48Z",
+                "last_commit": "2026-08-24T14:07:06Z",
                 "owner": "huggingface",
                 "repo": "transformers",
-                "stars": 164390
+                "stars": 164394
               }
             },
             {
@@ -600,10 +781,10 @@
                 "archived": false,
                 "id": 200722670,
                 "language": "Python",
-                "last_commit": "2026-08-24T08:37:37Z",
+                "last_commit": "2026-08-24T13:52:52Z",
                 "owner": "NVIDIA-NeMo",
                 "repo": "Speech",
-                "stars": 18293
+                "stars": 18298
               }
             },
             {
@@ -615,10 +796,10 @@
                 "archived": false,
                 "id": 176982014,
                 "language": "Python",
-                "last_commit": "2026-08-24T09:03:35Z",
+                "last_commit": "2026-08-24T12:53:28Z",
                 "owner": "NVIDIA",
                 "repo": "Megatron-LM",
-                "stars": 17554
+                "stars": 17561
               }
             },
             {
@@ -869,6 +1050,28 @@
           "children": [
             {
               "node_type": "item",
+              "title": "soskek/bert-chainer",
+              "description": "Chainer implementation of \"BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding\".",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 152918355,
+                "language": "Python",
+                "last_commit": "2019-11-09T01:54:50Z",
+                "owner": "soskek",
+                "repo": "bert-chainer",
+                "stars": 225
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Chainer"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
               "title": "llama.cpp",
               "description": "Port of Facebook's LLaMA model in C/C++.",
               "children": [],
@@ -876,10 +1079,10 @@
                 "archived": false,
                 "id": 612354784,
                 "language": "C++",
-                "last_commit": "2026-08-24T08:57:19Z",
+                "last_commit": "2026-08-24T14:01:36Z",
                 "owner": "ggml-org",
                 "repo": "llama.cpp",
-                "stars": 125365
+                "stars": 125401
               }
             },
             {
@@ -891,7 +1094,7 @@
                 "archived": false,
                 "id": 601161044,
                 "language": "JavaScript",
-                "last_commit": "2026-08-24T08:15:41Z",
+                "last_commit": "2026-08-24T14:05:23Z",
                 "owner": "huggingface",
                 "repo": "transformers.js",
                 "stars": 16264
@@ -924,7 +1127,7 @@
                 "last_commit": "2023-04-25T09:24:38Z",
                 "owner": "apple",
                 "repo": "ml-ane-transformers",
-                "stars": 2734
+                "stars": 2735
               }
             },
             {
@@ -1226,7 +1429,7 @@
             "last_commit": "2026-01-08T22:38:46Z",
             "owner": "jessevig",
             "repo": "bertviz",
-            "stars": 8158
+            "stars": 8159
           }
         },
         {
@@ -1493,6 +1696,28 @@
           "children": [
             {
               "node_type": "item",
+              "title": "asyml/texar",
+              "description": "Toolkit for Text Generation and Beyond. Texar is a general-purpose text generation toolkit, has also implemented BERT here for classification, and text generation applications by combining with Texar's other modules.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 98052177,
+                "language": "Python",
+                "last_commit": "2026-07-21T02:23:58Z",
+                "owner": "asyml",
+                "repo": "texar",
+                "stars": 2389
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Text Generation"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
               "title": "facebookresearch/SpanBERT",
               "description": "Question Answering on SQuAD; improving pre-training by representing and predicting spans.",
               "children": [],
@@ -1598,7 +1823,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-24T09:06:15.548Z",
+    "last_updated": "2026-08-24T14:13:06.000Z",
     "original_repository": "cedrickchee/awesome-transformer-nlp",
     "original_repository_id": 165509352,
     "original_repository_sha": "594ec55d612bb1bddff6d3d44707864cb6594b08",
