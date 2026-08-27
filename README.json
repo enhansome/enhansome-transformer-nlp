@@ -110,10 +110,10 @@
                 "archived": false,
                 "id": 155220641,
                 "language": "Python",
-                "last_commit": "2026-08-27T11:56:36Z",
+                "last_commit": "2026-08-27T18:54:07Z",
                 "owner": "huggingface",
                 "repo": "transformers",
-                "stars": 164499
+                "stars": 164511
               }
             },
             {
@@ -187,7 +187,7 @@
                 "last_commit": "2026-08-26T08:47:00Z",
                 "owner": "Dao-AILab",
                 "repo": "flash-attention",
-                "stars": 24787
+                "stars": 24786
               }
             },
             {
@@ -306,7 +306,7 @@
                 "last_commit": "2025-01-26T21:39:06Z",
                 "owner": "meta-llama",
                 "repo": "llama3",
-                "stars": 29247
+                "stars": 29245
               }
             },
             {
@@ -321,7 +321,7 @@
                 "last_commit": "2023-07-25T09:01:49Z",
                 "owner": "zai-org",
                 "repo": "GLM-130B",
-                "stars": 7651
+                "stars": 7653
               }
             },
             {
@@ -336,7 +336,7 @@
                 "last_commit": "2026-06-11T19:25:44Z",
                 "owner": "EleutherAI",
                 "repo": "gpt-neox",
-                "stars": 7459
+                "stars": 7460
               }
             },
             {
@@ -507,10 +507,10 @@
                     "archived": false,
                     "id": 250510075,
                     "language": "Python",
-                    "last_commit": "2026-08-27T11:07:11Z",
+                    "last_commit": "2026-08-27T17:16:05Z",
                     "owner": "huggingface",
                     "repo": "trl",
-                    "stars": 19158
+                    "stars": 19160
                   }
                 },
                 {
@@ -564,10 +564,10 @@
                 "archived": false,
                 "id": 235860204,
                 "language": "Python",
-                "last_commit": "2026-08-27T11:27:22Z",
+                "last_commit": "2026-08-27T18:30:25Z",
                 "owner": "deepspeedai",
                 "repo": "DeepSpeed",
-                "stars": 43005
+                "stars": 43010
               }
             },
             {
@@ -613,7 +613,7 @@
                 "last_commit": "2025-11-12T19:52:34Z",
                 "owner": "karpathy",
                 "repo": "nanoGPT",
-                "stars": 62522
+                "stars": 62528
               }
             }
           ],
@@ -624,7 +624,7 @@
             "last_commit": "2024-08-15T04:09:40Z",
             "owner": "karpathy",
             "repo": "minGPT",
-            "stars": 24839
+            "stars": 24838
           }
         }
       ],
@@ -694,7 +694,7 @@
             "last_commit": "2024-07-23T23:39:41Z",
             "owner": "google-research",
             "repo": "bert",
-            "stars": 40046
+            "stars": 40045
           }
         }
       ],
@@ -714,10 +714,10 @@
                 "archived": false,
                 "id": 155220641,
                 "language": "Python",
-                "last_commit": "2026-08-27T11:56:36Z",
+                "last_commit": "2026-08-27T18:54:07Z",
                 "owner": "huggingface",
                 "repo": "transformers",
-                "stars": 164499
+                "stars": 164511
               }
             },
             {
@@ -769,7 +769,7 @@
                 "last_commit": "2025-09-30T11:16:06Z",
                 "owner": "facebookresearch",
                 "repo": "fairseq",
-                "stars": 32231
+                "stars": 32232
               }
             },
             {
@@ -781,10 +781,10 @@
                 "archived": false,
                 "id": 200722670,
                 "language": "Python",
-                "last_commit": "2026-08-27T11:22:56Z",
+                "last_commit": "2026-08-27T18:53:04Z",
                 "owner": "NVIDIA-NeMo",
                 "repo": "Speech",
-                "stars": 18341
+                "stars": 18342
               }
             },
             {
@@ -796,10 +796,10 @@
                 "archived": false,
                 "id": 176982014,
                 "language": "Python",
-                "last_commit": "2026-08-27T12:06:12Z",
+                "last_commit": "2026-08-27T18:54:55Z",
                 "owner": "NVIDIA",
                 "repo": "Megatron-LM",
-                "stars": 17625
+                "stars": 17628
               }
             },
             {
@@ -1079,10 +1079,10 @@
                 "archived": false,
                 "id": 612354784,
                 "language": "C++",
-                "last_commit": "2026-08-27T12:05:30Z",
+                "last_commit": "2026-08-27T18:32:47Z",
                 "owner": "ggml-org",
                 "repo": "llama.cpp",
-                "stars": 125887
+                "stars": 125937
               }
             },
             {
@@ -1097,7 +1097,7 @@
                 "last_commit": "2026-08-26T10:02:04Z",
                 "owner": "huggingface",
                 "repo": "transformers.js",
-                "stars": 16272
+                "stars": 16274
               }
             },
             {
@@ -1823,7 +1823,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-27T12:07:49.902Z",
+    "last_updated": "2026-08-27T19:05:08.871Z",
     "original_repository_info": {
       "archived": false,
       "id": 165509352,
