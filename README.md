@@ -92,7 +92,7 @@ This repository contains a hand-curated list of great machine (deep) learning re
 
   </details>
 
-7. [PLMpapers](https://github.com/thunlp/PLMpapers) ⭐ 3,359 | 🐛 3 | 📅 2022-11-06 - BERT (Transformer, transfer learning) has catalyzed research in pretrained language models (PLMs) and has sparked many extensions. This repo contains a list of papers on PLMs.
+7. [PLMpapers](https://github.com/thunlp/PLMpapers) ⭐ 3,358 | 🐛 3 | 📅 2022-11-06 - BERT (Transformer, transfer learning) has catalyzed research in pretrained language models (PLMs) and has sparked many extensions. This repo contains a list of papers on PLMs.
 8. [CTRL: Conditional Transformer Language Model for Controllable Generation](https://arxiv.org/abs/1909.05858) by Nitish Shirish Keskar, Richard Socher et al. \[[Code](https://github.com/salesforce/ctrl) ⚠️ Archived].
 9. [Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://arxiv.org/abs/1910.10683) by Google Brain.
 
@@ -149,7 +149,7 @@ This repository contains a hand-curated list of great machine (deep) learning re
 
 * Permutation Language Modeling objective is the core of XLNet.
 
-6. [DistilBERT](https://github.com/huggingface/pytorch-transformers/tree/master/examples/distillation) ⭐ 164,588 | 🐛 2,396 | 🌐 Python | 📅 2026-08-29 (from HuggingFace), released together with the blog post [Smaller, faster, cheaper, lighter: Introducing DistilBERT, a distilled version of BERT](https://medium.com/huggingface/distilbert-8cf3380435b5).
+6. [DistilBERT](https://github.com/huggingface/pytorch-transformers/tree/master/examples/distillation) ⭐ 164,600 | 🐛 2,397 | 🌐 Python | 📅 2026-08-29 (from HuggingFace), released together with the blog post [Smaller, faster, cheaper, lighter: Introducing DistilBERT, a distilled version of BERT](https://medium.com/huggingface/distilbert-8cf3380435b5).
 7. [ALBERT: A Lite BERT for Self-supervised Learning of Language Representations paper](https://arxiv.org/abs/1909.11942v3) from Google Research and Toyota Technological Institute. — Improvements for more efficient parameter usage: factorized embedding parameterization, cross-layer parameter sharing, and Sentence Order Prediction (SOP) loss to model inter-sentence coherence. \[[Blog post](https://ai.googleblog.com/2019/12/albert-lite-bert-for-self-supervised.html) | [Code](https://github.com/google-research/ALBERT) ⚠️ Archived]
 8. [ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators](https://openreview.net/forum?id=r1xMH1BtvB) by Kevin Clark, Minh-Thang Luong, Quoc V. Le, and Christopher D. Manning - A BERT variant like ALBERT and cost less to train. They trained a model that outperforms GPT by using only one GPU; match the performance of RoBERTa by using 1/4 computation. It uses a new pre-training approach, called replaced token detection (RTD), that trains a bidirectional model while learning from all input positions. \[[Blog post](https://ai.googleblog.com/2020/03/more-efficient-nlp-model-pre-training.html) | [Code](https://github.com/google-research/electra) ⚠️ Archived]
 9. [Visual Paper Summary: ALBERT (A Lite BERT)](https://amitness.com/2020/02/albert-visual-summary/)
@@ -177,7 +177,7 @@ This repository contains a hand-curated list of great machine (deep) learning re
 
 ### Transformer Architecture
 
-1. [FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness (paper)](https://arxiv.org/abs/2205.14135) by Stanford University et al., 2022 - Transformers have grown deeper and wider, but training them on long sequences remains difficult. The attention layer at their heart is the compute and memory bottleneck: doubling the sequence length would quadruple the runtime and memory requirements. FlashAttention is a new algorithm to speed up attention and reduce its memory footprint—without any approximation. It enables training LLMs with longer context. \[[code](https://github.com/HazyResearch/flash-attention) ⭐ 24,798 | 🐛 1,275 | 🌐 Python | 📅 2026-08-28]
+1. [FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness (paper)](https://arxiv.org/abs/2205.14135) by Stanford University et al., 2022 - Transformers have grown deeper and wider, but training them on long sequences remains difficult. The attention layer at their heart is the compute and memory bottleneck: doubling the sequence length would quadruple the runtime and memory requirements. FlashAttention is a new algorithm to speed up attention and reduce its memory footprint—without any approximation. It enables training LLMs with longer context. \[[code](https://github.com/HazyResearch/flash-attention) ⭐ 24,800 | 🐛 1,278 | 🌐 Python | 📅 2026-08-28]
 2. [DETR (**DE**tection **TR**ansformer): End-to-End Object Detection with Transformers](https://ai.facebook.com/blog/end-to-end-object-detection-with-transformers/) by FAIR - :fire: Computer vision has not yet been swept up by the Transformer revolution. DETR completely changes the architecture compared with previous object detection systems. ([PyTorch Code and pretrained models](https://github.com/facebookresearch/detr) ⚠️ Archived). "A solid swing at (non-autoregressive) end-to-end detection. Anchor boxes + Non-Max Suppression (NMS) is a mess. I was hoping detection would go end-to-end back in \~2013)" — Andrej Karpathy
 3. [A Length-Extrapolatable Transformer (paper)](https://arxiv.org/abs/2212.10554) by Microsoft (2022) \[[TorchScale code](https://github.com/microsoft/torchscale) ⭐ 3,138 | 🐛 40 | 🌐 Python | 📅 2024-04-11] - This improves **modeling capability** of scaling Transformers.
 4. [google-research/meliad](https://github.com/google-research/meliad) ⚠️ Archived - The Meliad library is collection of models which are being developed as part of ongoing Google research into various architectural improvements in deep learning. The library currently consists of several transformer variations, which explore ways in which the popular transformer architecture can be extended to better support language modeling over long sequences. The variations are Memorizing Transformer, Transformer with sliding window, Block-Recurrent Transformer, and more.
@@ -309,7 +309,7 @@ Transformer Reinforcement Learning from Human Feedback (RLHF).
 
 #### Tools for RLHF
 
-* [lvwerra/TRL](https://github.com/lvwerra/trl) ⭐ 19,173 | 🐛 291 | 🌐 Python | 📅 2026-08-29 - Train transformer language models with reinforcement learning.
+* [lvwerra/TRL](https://github.com/lvwerra/trl) ⭐ 19,174 | 🐛 296 | 🌐 Python | 📅 2026-08-29 - Train transformer language models with reinforcement learning.
 
 Open source effort towards ChatGPT:
 
@@ -325,7 +325,7 @@ Open source effort towards ChatGPT:
 * A well put summary post on problems with large models that dominate NLP these days.
 * Larger models + more data = progress in Machine Learning research :question:
 
-4. [Turing-NLG: A 17-billion-parameter language model](https://www.microsoft.com/en-us/research/blog/turing-nlg-a-17-billion-parameter-language-model-by-microsoft/) by Microsoft that outperforms the state of the art on many downstream NLP tasks. This work would not be possible without breakthroughs produced by the [DeepSpeed library](https://github.com/microsoft/DeepSpeed) ⭐ 43,019 | 🐛 1,329 | 🌐 Python | 📅 2026-08-29 (compatible with PyTorch) and [ZeRO optimizer](https://arxiv.org/abs/1910.02054), which can be explored more in this accompanying [blog post](https://www.microsoft.com/en-us/research/blog/zero-deepspeed-new-system-optimizations-enable-training-models-with-over-100-billion-parameters).
+4. [Turing-NLG: A 17-billion-parameter language model](https://www.microsoft.com/en-us/research/blog/turing-nlg-a-17-billion-parameter-language-model-by-microsoft/) by Microsoft that outperforms the state of the art on many downstream NLP tasks. This work would not be possible without breakthroughs produced by the [DeepSpeed library](https://github.com/microsoft/DeepSpeed) ⭐ 43,019 | 🐛 1,332 | 🌐 Python | 📅 2026-08-29 (compatible with PyTorch) and [ZeRO optimizer](https://arxiv.org/abs/1910.02054), which can be explored more in this accompanying [blog post](https://www.microsoft.com/en-us/research/blog/zero-deepspeed-new-system-optimizations-enable-training-models-with-over-100-billion-parameters).
 5. [Transformers From Scratch](http://www.peterbloem.nl/blog/transformers) tutorial by Peter Bloem.
 6. [Real-time Natural Language Understanding with BERT using NVIDIA TensorRT](https://devblogs.nvidia.com/nlu-with-tensorrt-bert/) on Google Cloud T4 GPUs achieves 2.2 ms latency for inference. Optimizations are open source on GitHub.
 7. [NLP's Clever Hans Moment has Arrived](https://thegradient.pub/nlps-clever-hans-moment-has-arrived/) by The Gradient.
@@ -392,7 +392,7 @@ Open source effort towards ChatGPT:
 </div>
 
 * [minGPT](https://github.com/karpathy/minGPT) ⭐ 24,842 | 🐛 83 | 🌐 Python | 📅 2024-08-15 by Andrej Karpathy - A PyTorch re-implementation of GPT, both training and inference. minGPT tries to be small, clean, interpretable and educational, as most of the currently available GPT model implementations can a bit sprawling. GPT is not a complicated model and this implementation is appropriately about 300 lines of code.
-  * [nanoGPT](https://github.com/karpathy/nanoGPT) ⭐ 62,559 | 🐛 351 | 🌐 Python | 📅 2025-11-12 - It's a re-write of minGPT. Still under active development. The associated and ongoing video lecture series *[Neural Networks: Zero to Hero](https://karpathy.ai/zero-to-hero.html)*, build GPT, from scratch, in code and aspire to spell everything out. Note that Karpathy's bottom up approach and fast.ai teaching style work well together. (FYI, fast.ai has both top-down ("part 1") and bottom-up ("part 2") approach.)
+  * [nanoGPT](https://github.com/karpathy/nanoGPT) ⭐ 62,588 | 🐛 351 | 🌐 Python | 📅 2025-11-12 - It's a re-write of minGPT. Still under active development. The associated and ongoing video lecture series *[Neural Networks: Zero to Hero](https://karpathy.ai/zero-to-hero.html)*, build GPT, from scratch, in code and aspire to spell everything out. Note that Karpathy's bottom up approach and fast.ai teaching style work well together. (FYI, fast.ai has both top-down ("part 1") and bottom-up ("part 2") approach.)
 * [A visual intro to large language models (LLMs) by Jay Alammar/Cohere](https://jalammar.github.io/applying-large-language-models-cohere/) - A high-level look at LLMs and some of their applications for language processing. It covers text generation models (like GPT) and representation models (like BERT).
 * [Interfaces for Explaining Transformer Language Models](https://jalammar.github.io/explaining-transformers/) by Jay Alammar - A gentle visual to Transformer models by looking at input saliency and neuron activation inside neural networks. **Our understanding of why these models work so well, however, still lags behind these developments**.
 * [The GPT-3 Architecture, on a Napkin](https://dugas.ch/artificial_curiosity/GPT_architecture.html)
@@ -453,15 +453,15 @@ GPT and/or BERT implementations.
 
 ### PyTorch and TensorFlow
 
-1. [🤗 Hugging Face Transformers](https://github.com/huggingface/transformers) ⭐ 164,588 | 🐛 2,396 | 🌐 Python | 📅 2026-08-29 (formerly known as [pytorch-transformers](https://github.com/huggingface/pytorch-transformers) ⭐ 164,588 | 🐛 2,396 | 🌐 Python | 📅 2026-08-29 and [pytorch-pretrained-bert](https://github.com/huggingface/pytorch-pretrained-BERT) ⭐ 164,588 | 🐛 2,396 | 🌐 Python | 📅 2026-08-29) provides state-of-the-art general-purpose architectures (BERT, GPT-2, RoBERTa, XLM, DistilBert, XLNet, CTRL...) for Natural Language Understanding (NLU) and Natural Language Generation (NLG) with over 32+ pretrained models in 100+ languages and deep interoperability between TensorFlow 2.0 and PyTorch. \[[Paper](https://arxiv.org/abs/1910.03771)]
+1. [🤗 Hugging Face Transformers](https://github.com/huggingface/transformers) ⭐ 164,600 | 🐛 2,397 | 🌐 Python | 📅 2026-08-29 (formerly known as [pytorch-transformers](https://github.com/huggingface/pytorch-transformers) ⭐ 164,600 | 🐛 2,397 | 🌐 Python | 📅 2026-08-29 and [pytorch-pretrained-bert](https://github.com/huggingface/pytorch-pretrained-BERT) ⭐ 164,600 | 🐛 2,397 | 🌐 Python | 📅 2026-08-29) provides state-of-the-art general-purpose architectures (BERT, GPT-2, RoBERTa, XLM, DistilBert, XLNet, CTRL...) for Natural Language Understanding (NLU) and Natural Language Generation (NLG) with over 32+ pretrained models in 100+ languages and deep interoperability between TensorFlow 2.0 and PyTorch. \[[Paper](https://arxiv.org/abs/1910.03771)]
 2. [FasterTransformer](https://github.com/NVIDIA/FasterTransformer) ⭐ 6,447 | 🐛 289 | 🌐 C++ | 📅 2024-03-27 - Transformer related optimization, including BERT and GPT. This repo provides a script and recipe to run the highly optimized transformer-based encoder and decoder component, and it is tested and maintained by NVIDIA.
 3. [spacy-transformers](https://github.com/explosion/spacy-transformers) ⭐ 1,410 | 🐛 2 | 🌐 Python | 📅 2026-03-27 - a library that wrap Hugging Face's Transformers, in order to extract features to power NLP pipelines. It also calculates an alignment so the Transformer features can be related back to actual words instead of just wordpieces.
 
 ### PyTorch
 
 1. [facebook/fairseq](https://github.com/pytorch/fairseq/blob/master/examples/roberta/README.md) ⚠️ Archived - RoBERTa: A Robustly Optimized BERT Pretraining Approach by Facebook AI Research. SoTA results on GLUE, SQuAD and RACE.
-2. [NVIDIA/NeMo](https://github.com/NVIDIA/NeMo) ⭐ 18,354 | 🐛 292 | 🌐 Python | 📅 2026-08-29 - Neural Modules is a toolkit for conversational AI by NVIDIA. They are trying to [improve speech recognition with BERT post-processing](https://nvidia.github.io/NeMo/nlp/intro.html#improving-speech-recognition-with-bertx2-post-processing-model).
-3. [NVIDIA/Megatron-LM](https://github.com/NVIDIA/Megatron-LM) ⭐ 17,658 | 🐛 1,259 | 🌐 Python | 📅 2026-08-29 - Ongoing research training transformer language models at scale, including: BERT.
+2. [NVIDIA/NeMo](https://github.com/NVIDIA/NeMo) ⭐ 18,355 | 🐛 295 | 🌐 Python | 📅 2026-08-29 - Neural Modules is a toolkit for conversational AI by NVIDIA. They are trying to [improve speech recognition with BERT post-processing](https://nvidia.github.io/NeMo/nlp/intro.html#improving-speech-recognition-with-bertx2-post-processing-model).
+3. [NVIDIA/Megatron-LM](https://github.com/NVIDIA/Megatron-LM) ⭐ 17,664 | 🐛 1,265 | 🌐 Python | 📅 2026-08-29 - Ongoing research training transformer language models at scale, including: BERT.
 4. [codertimo/BERT-pytorch](https://github.com/codertimo/BERT-pytorch) ⭐ 6,527 | 🐛 68 | 🌐 Python | 📅 2023-09-15 - Google AI 2018 BERT pytorch implementation.
 5. [lucidrains/x-transformers](https://github.com/lucidrains/x-transformers) ⭐ 5,943 | 🐛 74 | 🌐 Python | 📅 2026-08-28 - A simple but complete full-attention transformer with a set of promising experimental features from various papers (good for learning purposes). There is a 2021 paper rounding up Transformer modifications, [*Do Transformer Modifications Transfer Across Implementations and Applications?*](https://arxiv.org/abs/2102.11972).
 6. [kimiyoung/transformer-xl](https://github.com/kimiyoung/transformer-xl) ⭐ 3,714 | 🐛 98 | 🌐 Python | 📅 2022-09-21 - Code repository associated with the Transformer-XL paper.
@@ -493,9 +493,9 @@ GPT and/or BERT implementations.
 
 ### Other
 
-* [llama.cpp](https://github.com/ggerganov/llama.cpp) ⭐ 126,133 | 🐛 2,273 | 🌐 C++ | 📅 2026-08-29 - Port of Facebook's LLaMA model in C/C++.
+* [llama.cpp](https://github.com/ggerganov/llama.cpp) ⭐ 126,191 | 🐛 2,296 | 🌐 C++ | 📅 2026-08-29 - Port of Facebook's LLaMA model in C/C++.
 * [Transformers.js](https://github.com/xenova/transformers.js) ⭐ 16,277 | 🐛 274 | 🌐 JavaScript | 📅 2026-08-28 - Run 🤗 Transformers in your browser.
-* [Alpaca.cpp](https://github.com/antimatter15/alpaca.cpp) ⭐ 10,119 | 🐛 133 | 🌐 C | 📅 2023-04-19 - Run a fast ChatGPT-like model locally on your device.
+* [Alpaca.cpp](https://github.com/antimatter15/alpaca.cpp) ⭐ 10,118 | 🐛 133 | 🌐 C | 📅 2023-04-19 - Run a fast ChatGPT-like model locally on your device.
 * [Apple Neural Engine (ANE) Transformers](https://github.com/apple/ml-ane-transformers) ⭐ 2,736 | 🐛 5 | 🌐 Python | 📅 2023-04-25 - Transformer architecture optimized for Apple Silicon.
 * [Cformers](https://github.com/NolanoOrg/cformers) ⭐ 312 | 🐛 29 | 🌐 C | 📅 2023-12-09 - SoTA Transformers with C-backend for fast inference on your CPU.
 * [LLaMA compatible port](https://github.com/cedrickchee/llama#llama-compatible-port) ⭐ 31 | 🐛 0 | 🌐 Jupyter Notebook | 📅 2024-07-07
