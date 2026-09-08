@@ -61,7 +61,7 @@
             "open_issues": 0,
             "owner": "tomohideshibata",
             "repo": "BERT-related-papers",
-            "stars": 2032,
+            "stars": 2031,
             "topics": []
           },
           "first_seen": "2026-08-28T20:12:57.034Z"
@@ -149,11 +149,11 @@
                 "id": 155220641,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-09-07T13:56:31Z",
-                "open_issues": 2405,
+                "last_commit": "2026-09-08T12:43:34Z",
+                "open_issues": 2402,
                 "owner": "huggingface",
                 "repo": "transformers",
-                "stars": 164950,
+                "stars": 164984,
                 "topics": [
                   "audio",
                   "deep-learning",
@@ -274,11 +274,11 @@
                 "id": 494232964,
                 "language": "Python",
                 "license": "BSD-3-Clause",
-                "last_commit": "2026-09-02T08:20:50Z",
-                "open_issues": 1312,
+                "last_commit": "2026-09-08T03:23:25Z",
+                "open_issues": 1316,
                 "owner": "Dao-AILab",
                 "repo": "flash-attention",
-                "stars": 24853,
+                "stars": 24858,
                 "topics": []
               },
               "first_seen": "2026-08-28T20:12:57.034Z"
@@ -320,7 +320,7 @@
                 "open_issues": 40,
                 "owner": "microsoft",
                 "repo": "torchscale",
-                "stars": 3139,
+                "stars": 3140,
                 "topics": [
                   "computer-vision",
                   "machine-learning",
@@ -454,7 +454,7 @@
                 "open_issues": 215,
                 "owner": "meta-llama",
                 "repo": "llama3",
-                "stars": 29229,
+                "stars": 29227,
                 "topics": []
               },
               "first_seen": "2026-08-28T20:12:57.034Z"
@@ -496,7 +496,7 @@
                 "open_issues": 113,
                 "owner": "EleutherAI",
                 "repo": "gpt-neox",
-                "stars": 7461,
+                "stars": 7460,
                 "topics": [
                   "deepspeed-library",
                   "gpt-3",
@@ -522,7 +522,7 @@
                 "open_issues": 154,
                 "owner": "facebookresearch",
                 "repo": "metaseq",
-                "stars": 6546,
+                "stars": 6545,
                 "topics": []
               },
               "first_seen": "2026-08-28T20:12:57.034Z"
@@ -543,7 +543,7 @@
                 "open_issues": 154,
                 "owner": "facebookresearch",
                 "repo": "metaseq",
-                "stars": 6546,
+                "stars": 6545,
                 "topics": []
               },
               "first_seen": "2026-08-28T20:12:57.034Z"
@@ -760,11 +760,11 @@
                     "id": 250510075,
                     "language": "Python",
                     "license": "Apache-2.0",
-                    "last_commit": "2026-09-07T12:19:54Z",
-                    "open_issues": 324,
+                    "last_commit": "2026-09-08T12:07:51Z",
+                    "open_issues": 340,
                     "owner": "huggingface",
                     "repo": "trl",
-                    "stars": 19238,
+                    "stars": 19245,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T20:12:57.034Z"
@@ -849,11 +849,11 @@
                 "id": 235860204,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-09-07T13:38:06Z",
-                "open_issues": 1381,
+                "last_commit": "2026-09-08T06:21:46Z",
+                "open_issues": 1391,
                 "owner": "deepspeedai",
                 "repo": "DeepSpeed",
-                "stars": 43071,
+                "stars": 43076,
                 "topics": [
                   "billion-parameters",
                   "compression",
@@ -934,7 +934,7 @@
                 "open_issues": 348,
                 "owner": "karpathy",
                 "repo": "nanoGPT",
-                "stars": 62878,
+                "stars": 62904,
                 "topics": []
               },
               "first_seen": "2026-08-28T20:12:57.034Z"
@@ -1007,7 +1007,7 @@
                 "open_issues": 154,
                 "owner": "facebookresearch",
                 "repo": "metaseq",
-                "stars": 6546,
+                "stars": 6545,
                 "topics": []
               },
               "first_seen": "2026-08-28T20:12:57.034Z"
@@ -1039,7 +1039,7 @@
             "open_issues": 880,
             "owner": "google-research",
             "repo": "bert",
-            "stars": 40043,
+            "stars": 40042,
             "topics": [
               "google",
               "natural-language-processing",
@@ -1070,11 +1070,11 @@
                 "id": 155220641,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-09-07T13:56:31Z",
-                "open_issues": 2405,
+                "last_commit": "2026-09-08T12:43:34Z",
+                "open_issues": 2402,
                 "owner": "huggingface",
                 "repo": "transformers",
-                "stars": 164950,
+                "stars": 164984,
                 "topics": [
                   "audio",
                   "deep-learning",
@@ -1187,7 +1187,7 @@
                 "open_issues": 1352,
                 "owner": "facebookresearch",
                 "repo": "fairseq",
-                "stars": 32231,
+                "stars": 32230,
                 "topics": [
                   "artificial-intelligence",
                   "python",
@@ -1208,11 +1208,11 @@
                 "id": 200722670,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-09-07T04:49:36Z",
-                "open_issues": 310,
+                "last_commit": "2026-09-08T12:35:46Z",
+                "open_issues": 312,
                 "owner": "NVIDIA-NeMo",
                 "repo": "Speech",
-                "stars": 18401,
+                "stars": 18404,
                 "topics": [
                   "asr",
                   "deeplearning",
@@ -1240,11 +1240,11 @@
                 "id": 176982014,
                 "language": "Python",
                 "license": "NOASSERTION",
-                "last_commit": "2026-09-07T14:16:30Z",
-                "open_issues": 1258,
+                "last_commit": "2026-09-08T12:52:02Z",
+                "open_issues": 1275,
                 "owner": "NVIDIA",
                 "repo": "Megatron-LM",
-                "stars": 17773,
+                "stars": 17784,
                 "topics": [
                   "large-language-models",
                   "model-para",
@@ -1712,11 +1712,11 @@
                 "id": 612354784,
                 "language": "C++",
                 "license": "MIT",
-                "last_commit": "2026-09-07T14:08:02Z",
-                "open_issues": 2435,
+                "last_commit": "2026-09-08T12:44:33Z",
+                "open_issues": 2454,
                 "owner": "ggml-org",
                 "repo": "llama.cpp",
-                "stars": 127365,
+                "stars": 127482,
                 "topics": [
                   "ggml"
                 ]
@@ -1735,7 +1735,7 @@
                 "id": 601161044,
                 "language": "JavaScript",
                 "license": "Apache-2.0",
-                "last_commit": "2026-09-07T06:42:16Z",
+                "last_commit": "2026-09-07T16:00:48Z",
                 "open_issues": 265,
                 "owner": "huggingface",
                 "repo": "transformers.js",
@@ -1765,7 +1765,7 @@
                 "open_issues": 133,
                 "owner": "antimatter15",
                 "repo": "alpaca.cpp",
-                "stars": 10117,
+                "stars": 10118,
                 "topics": []
               },
               "first_seen": "2026-08-28T20:12:57.034Z"
@@ -1786,7 +1786,7 @@
                 "open_issues": 5,
                 "owner": "apple",
                 "repo": "ml-ane-transformers",
-                "stars": 2739,
+                "stars": 2740,
                 "topics": []
               },
               "first_seen": "2026-08-28T20:12:57.034Z"
@@ -2143,7 +2143,7 @@
             "open_issues": 1,
             "owner": "whqwill",
             "repo": "seq2seq-keyphrase-bert",
-            "stars": 80,
+            "stars": 79,
             "topics": []
           },
           "first_seen": "2026-08-28T20:12:57.034Z"
@@ -2347,7 +2347,7 @@
                 "open_issues": 145,
                 "owner": "macanv",
                 "repo": "BERT-BiLSTM-CRF-NER",
-                "stars": 4906,
+                "stars": 4907,
                 "topics": [
                   "bert",
                   "bert-bilstm-crf",
@@ -2949,7 +2949,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-07T14:16:32.567Z",
+    "last_updated": "2026-09-08T12:53:23.746Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of NLP resources focused on Transformer networks, attention mechanism, GPT, BERT, ChatGPT, LLMs, and transfer learning.",
