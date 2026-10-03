@@ -48,7 +48,7 @@
         {
           "node_type": "item",
           "title": "tomohideshibata/BERT-related papers",
-          "description": null,
+          "description": "tomohideshibata/BERT-related-papers",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -82,7 +82,7 @@
             "open_issues": 98,
             "owner": "tensorflow",
             "repo": "mesh",
-            "stars": 1628,
+            "stars": 1627,
             "topics": []
           },
           "first_seen": "2026-08-28T20:12:57.034Z"
@@ -149,11 +149,11 @@
                 "id": 155220641,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-02T14:44:40Z",
+                "last_commit": "2026-10-03T03:54:50Z",
                 "open_issues": 2360,
                 "owner": "huggingface",
                 "repo": "transformers",
-                "stars": 166907,
+                "stars": 166912,
                 "topics": [
                   "audio",
                   "deep-learning",
@@ -274,11 +274,11 @@
                 "id": 494232964,
                 "language": "Python",
                 "license": "BSD-3-Clause",
-                "last_commit": "2026-10-02T03:12:26Z",
-                "open_issues": 1325,
+                "last_commit": "2026-10-03T04:11:52Z",
+                "open_issues": 1330,
                 "owner": "Dao-AILab",
                 "repo": "flash-attention",
-                "stars": 25061,
+                "stars": 25067,
                 "topics": []
               },
               "first_seen": "2026-08-28T20:12:57.034Z"
@@ -320,7 +320,7 @@
                 "open_issues": 41,
                 "owner": "microsoft",
                 "repo": "torchscale",
-                "stars": 3142,
+                "stars": 3140,
                 "topics": [
                   "computer-vision",
                   "machine-learning",
@@ -399,7 +399,7 @@
                 "open_issues": 15,
                 "owner": "EleutherAI",
                 "repo": "gpt-neo",
-                "stars": 8259,
+                "stars": 8258,
                 "topics": [
                   "gpt",
                   "gpt-2",
@@ -454,7 +454,7 @@
                 "open_issues": 215,
                 "owner": "meta-llama",
                 "repo": "llama3",
-                "stars": 29203,
+                "stars": 29200,
                 "topics": []
               },
               "first_seen": "2026-08-28T20:12:57.034Z"
@@ -475,7 +475,7 @@
                 "open_issues": 123,
                 "owner": "zai-org",
                 "repo": "GLM-130B",
-                "stars": 7650,
+                "stars": 7651,
                 "topics": []
               },
               "first_seen": "2026-08-28T20:12:57.034Z"
@@ -760,11 +760,11 @@
                     "id": 250510075,
                     "language": "Python",
                     "license": "Apache-2.0",
-                    "last_commit": "2026-10-02T14:42:26Z",
-                    "open_issues": 281,
+                    "last_commit": "2026-10-03T04:04:44Z",
+                    "open_issues": 280,
                     "owner": "huggingface",
                     "repo": "trl",
-                    "stars": 19437,
+                    "stars": 19440,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T20:12:57.034Z"
@@ -849,11 +849,11 @@
                 "id": 235860204,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-02T00:43:53Z",
-                "open_issues": 1485,
+                "last_commit": "2026-10-03T01:02:16Z",
+                "open_issues": 1487,
                 "owner": "deepspeedai",
                 "repo": "DeepSpeed",
-                "stars": 43172,
+                "stars": 43175,
                 "topics": [
                   "billion-parameters",
                   "compression",
@@ -931,10 +931,10 @@
                 "language": "Python",
                 "license": "MIT",
                 "last_commit": "2025-11-12T19:52:34Z",
-                "open_issues": 349,
+                "open_issues": 351,
                 "owner": "karpathy",
                 "repo": "nanoGPT",
-                "stars": 63497,
+                "stars": 63512,
                 "topics": []
               },
               "first_seen": "2026-08-28T20:12:57.034Z"
@@ -951,7 +951,7 @@
             "open_issues": 83,
             "owner": "karpathy",
             "repo": "minGPT",
-            "stars": 24920,
+            "stars": 24923,
             "topics": []
           },
           "first_seen": "2026-08-28T20:12:57.034Z"
@@ -965,7 +965,7 @@
         {
           "node_type": "item",
           "title": "Tracr: Compiled Transformers as a Laboratory for Interpretability (paper)",
-          "description": "(2023) by DeepMind - TRACR (TRAnsformer Compiler for RASP) is a compiler for converting RASP programs (DSL for Transformers) into weights of a GPT-like model. Usually, we train Transformers to encode algorithms in their weights. With TRACR, we go in the reverse direction; compile weights directly from explicit code. Why do this? Accelerate interpretability research. Think of it like formal methods (from software eng.) on Transformers. It can be difficult to check if the explanation an interpretability tool provides is correct. [Tweet, code]",
+          "description": "by DeepMind - TRACR (TRAnsformer Compiler for RASP) is a compiler for converting RASP programs (DSL for Transformers) into weights of a GPT-like model. Usually, we train Transformers to encode algorithms in their weights. With TRACR, we go in the reverse direction; compile weights directly from explicit code. Why do this? Accelerate interpretability research. Think of it like formal methods (from software eng.) on Transformers. It can be difficult to check if the explanation an interpretability tool provides is correct. [Tweet, code]",
           "children": [],
           "repo_info": {
             "archived": true,
@@ -1070,11 +1070,11 @@
                 "id": 155220641,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-02T14:44:40Z",
+                "last_commit": "2026-10-03T03:54:50Z",
                 "open_issues": 2360,
                 "owner": "huggingface",
                 "repo": "transformers",
-                "stars": 166907,
+                "stars": 166912,
                 "topics": [
                   "audio",
                   "deep-learning",
@@ -1141,7 +1141,7 @@
                 "open_issues": 3,
                 "owner": "explosion",
                 "repo": "spacy-transformers",
-                "stars": 1409,
+                "stars": 1408,
                 "topics": [
                   "bert",
                   "google",
@@ -1187,7 +1187,7 @@
                 "open_issues": 1352,
                 "owner": "facebookresearch",
                 "repo": "fairseq",
-                "stars": 32216,
+                "stars": 32214,
                 "topics": [
                   "artificial-intelligence",
                   "python",
@@ -1208,7 +1208,7 @@
                 "id": 200722670,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-02T12:09:45Z",
+                "last_commit": "2026-10-03T00:39:58Z",
                 "open_issues": 326,
                 "owner": "NVIDIA-NeMo",
                 "repo": "Speech",
@@ -1240,11 +1240,11 @@
                 "id": 176982014,
                 "language": "Python",
                 "license": "NOASSERTION",
-                "last_commit": "2026-10-02T13:22:48Z",
-                "open_issues": 1503,
+                "last_commit": "2026-10-03T04:09:28Z",
+                "open_issues": 1504,
                 "owner": "NVIDIA",
                 "repo": "Megatron-LM",
-                "stars": 18053,
+                "stars": 18059,
                 "topics": [
                   "large-language-models",
                   "model-para",
@@ -1269,7 +1269,7 @@
                 "open_issues": 68,
                 "owner": "codertimo",
                 "repo": "BERT-pytorch",
-                "stars": 6529,
+                "stars": 6530,
                 "topics": [
                   "bert",
                   "language-model",
@@ -1293,7 +1293,7 @@
                 "language": "Python",
                 "license": "MIT",
                 "last_commit": "2026-10-01T13:12:08Z",
-                "open_issues": 75,
+                "open_issues": 80,
                 "owner": "lucidrains",
                 "repo": "x-transformers",
                 "stars": 5952,
@@ -1447,7 +1447,7 @@
                 "open_issues": 10,
                 "owner": "dhlee347",
                 "repo": "pytorchic-bert",
-                "stars": 600,
+                "stars": 599,
                 "topics": []
               },
               "first_seen": "2026-08-28T20:12:57.034Z"
@@ -1544,7 +1544,7 @@
                 "open_issues": 166,
                 "owner": "bojone",
                 "repo": "bert4keras",
-                "stars": 5411,
+                "stars": 5409,
                 "topics": []
               },
               "first_seen": "2026-08-28T20:12:57.034Z"
@@ -1712,11 +1712,11 @@
                 "id": 612354784,
                 "language": "C++",
                 "license": "MIT",
-                "last_commit": "2026-10-02T14:37:36Z",
-                "open_issues": 2513,
+                "last_commit": "2026-10-03T02:35:40Z",
+                "open_issues": 2521,
                 "owner": "ggml-org",
                 "repo": "llama.cpp",
-                "stars": 130140,
+                "stars": 130178,
                 "topics": [
                   "ggml"
                 ]
@@ -1736,10 +1736,10 @@
                 "language": "JavaScript",
                 "license": "Apache-2.0",
                 "last_commit": "2026-10-02T01:13:49Z",
-                "open_issues": 263,
+                "open_issues": 262,
                 "owner": "huggingface",
                 "repo": "transformers.js",
-                "stars": 16336,
+                "stars": 16337,
                 "topics": [
                   "browser",
                   "javascript",
@@ -1815,7 +1815,7 @@
             {
               "node_type": "item",
               "title": "LLaMA compatible port",
-              "description": null,
+              "description": "cedrickchee/llama",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -1860,7 +1860,7 @@
             "open_issues": 305,
             "owner": "jina-ai",
             "repo": "clip-as-service",
-            "stars": 12833,
+            "stars": 12832,
             "topics": [
               "bert",
               "bert-as-service",
@@ -1969,7 +1969,7 @@
         {
           "node_type": "item",
           "title": "Y1ran/NLP-BERT--Chinese version",
-          "description": null,
+          "description": "Y1ran/NLP-BERT--ChineseVersion",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -2059,7 +2059,7 @@
             "open_issues": 24,
             "owner": "microsoft",
             "repo": "AzureML-BERT",
-            "stars": 405,
+            "stars": 404,
             "topics": [
               "azure-machine-learning",
               "azureml-bert",
@@ -2240,7 +2240,7 @@
         {
           "node_type": "item",
           "title": "Willyoung2017/Bert_Attempt",
-          "description": null,
+          "description": "Willyoung2017/Bert_Attempt",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -2280,7 +2280,7 @@
             "open_issues": 22,
             "owner": "jessevig",
             "repo": "bertviz",
-            "stars": 8190,
+            "stars": 8191,
             "topics": [
               "bert",
               "gpt2",
@@ -2437,7 +2437,7 @@
             {
               "node_type": "item",
               "title": "sberbank-ai/ner-bert",
-              "description": null,
+              "description": "ai-forever/ner-bert",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -2833,7 +2833,7 @@
             {
               "node_type": "item",
               "title": "xzp27/BERT-for-Chinese-Question-Answering",
-              "description": null,
+              "description": "eva-n27/BERT-for-Chinese-Question-Answering",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -2949,7 +2949,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-02T14:45:37.422Z",
+    "last_updated": "2026-10-03T05:09:38.218Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of NLP resources focused on Transformer networks, attention mechanism, GPT, BERT, ChatGPT, LLMs, and transfer learning.",
